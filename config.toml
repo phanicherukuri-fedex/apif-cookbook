@@ -1,0 +1,44 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "APIF Cookbook"
+copyright = "@2018 FedEx Services"
+theme = "docdock"
+publishDir = "public"
+# googleAnalytics = "GOOGLE_TRACKER_ID"
+
+[params]
+description = "API Factory Applications/Methods Cookbook"
+editURL = "https://gitlab.prod.fedex.com/APP4067/apptx-cookbook"
+noCategoryLink = true
+showVisitedLinks = false
+disableSearch = false
+disableHomeIcon = true
+ordersectionsby = "title"
+ignoreFiles = [ "\\.adoc$" ]
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+
+[[menu.shortcuts]]
+pre = "<h3>More</h3>"
+name = "<i class='fa fa-github'></i> <label>Github repo</label>"
+identifier = "ds"
+url = "https://github.com/vjeantet/hugo-theme-docdock"
+weight = 10
+
+# [[menu.shortcuts]]
+# name = "<i class='fa fa-cloud-download'></i> <label>Download</label>"
+# url = "https://github.com/vjeantet/hugo-theme-docdock/archive/master.zip"
+# weight = 11
+
+# [[menu.shortcuts]]
+# name = "<i class='fa fa-bookmark'></i> <label>Hugo Documentation</label>"
+# identifier = "hugodoc"
+# url = "https://gohugo.io/"
+# weight = 20
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-bullhorn'></i> <label>Credits</label>"
+url = "/credits"
+weight = 30
