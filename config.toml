@@ -1,9 +1,9 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "APIF Cookbook"
-copyright = "@2018 FedEx Services"
+copyright = "@2019 FedEx Services"
 theme = "docdock"
-publishDir = "public"
+publishDir = "docs"
 # googleAnalytics = "GOOGLE_TRACKER_ID"
 
 [params]

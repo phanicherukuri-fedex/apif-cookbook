@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on APIF Cookbook</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on APIF Cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>@2019 FedEx Services</copyright>
+    <lastBuildDate>Fri, 26 Oct 2018 09:55:14 -0500</lastBuildDate>
+    
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Foo</title>
+      <link>/tags/foo/</link>
+      <pubDate>Fri, 26 Oct 2018 09:55:14 -0500</pubDate>
+      
+      <guid>/tags/foo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rest</title>
+      <link>/tags/rest/</link>
+      <pubDate>Mon, 03 Dec 2018 19:38:04 -0500</pubDate>
+      
+      <guid>/tags/rest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rest Standards</title>
+      <link>/tags/rest-standards/</link>
+      <pubDate>Mon, 03 Dec 2018 19:38:04 -0500</pubDate>
+      
+      <guid>/tags/rest-standards/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

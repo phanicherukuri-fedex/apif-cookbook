@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recipes on APIF Cookbook</title>
+    <link>/categories/recipes/</link>
+    <description>Recent content in Recipes on APIF Cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>@2019 FedEx Services</copyright>
+    <lastBuildDate>Mon, 03 Dec 2018 19:38:04 -0500</lastBuildDate>
+    
+	<atom:link href="/categories/recipes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>REST Standards</title>
+      <link>/recipes/apim/rest_standards/</link>
+      <pubDate>Mon, 03 Dec 2018 19:38:04 -0500</pubDate>
+      
+      <guid>/recipes/apim/rest_standards/</guid>
+      <description>REST Standards Purpose This document defines URI standards, dos and don’ts for Unified API strategy. In FedEx RESTful APIs, the client specifies an action using an HTTP verb such as POST, GET, PUT, or DELETE. It specifies a resource by a globally-unique URI of the following template
+URI Standards  Use only Nouns (No Verbs) Use plurals for resources like shipments/pickups Http methods used for verb  GET: Retrieve resource POST: Create resource PUT: Update resource DELETE: Delete resource  All the URI parts are in lower case URI Hierarchy is important Hackable &amp;lsquo;up the tree&amp;rsquo;.</description>
+    </item>
+    
+    <item>
+      <title>Standing Up New Cxs</title>
+      <link>/recipes/cxs/standing_up_new_cxs/</link>
+      <pubDate>Fri, 26 Oct 2018 09:55:14 -0500</pubDate>
+      
+      <guid>/recipes/cxs/standing_up_new_cxs/</guid>
+      <description>API Development Steps  Creating of new CXS 3.5 project Create REST controller class Create Process class and migrate validation logic from 3.0 to 3.5 Process class For each FAST, create a service class (with hystrix setup) and migrate FAST Transaction For each DB call, create a service class (with hystrix setup) and migrate DB native call to JPA call For each CXS REST call, create a service class (with hystrix setup) and migrate to CXS REST call.</description>
+    </item>
+    
+  </channel>
+</rss>

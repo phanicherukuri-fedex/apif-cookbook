@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>APIF Cookbook</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="generator" content="Hugo 0.49" />
+<title>CXS :: APIF Cookbook</title>
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+<link href="/css/font-awesome.min.css" rel="stylesheet">
+<link href="/css/nucleus.css" rel="stylesheet">
+<link href="/theme-flex/style.css" rel="stylesheet">
+
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+<script src="/js/jquery-2.x.min.js"></script>
+<script type="text/javascript">
+      var baseurl = "\/";
+</script>
+<link href="/css/custom.css" rel="stylesheet">
+
+
+    
+  </head>
+  <body data-url="/recipes/cxs/">
+    
+      <header>
+  <div class="logo">
+    
+	
+  
+    <a class="baselink" href="/">APIF Cookbook</a>
+  
+
+
+  </div>
+  <div class="burger"><a href="javascript:void(0);" style="font-size:15px;">&#9776;</a></div>
+    <nav class="shortcuts">
+            <li class="" role="">
+                <a href="https://github.com/vjeantet/hugo-theme-docdock"  rel="noopener">
+                  <i class='fa fa-github'></i> <label>Github repo</label>
+                </a>
+            </li>
+            <li class="" role="">
+                <a href="/credits"  rel="noopener">
+                  <i class='fa fa-bullhorn'></i> <label>Credits</label>
+                </a>
+            </li>
+    </nav>
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+    <li data-nav-id="/recipes/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/recipes/">Recipes</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i>
+      </div>
+        <ul>
+    <li data-nav-id="/recipes/apim/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/recipes/apim/">APIM</a><i class="fa fa-angle-right fa-lg category-icon"></i>
+      </div>
+        <ul>
+        </ul>
+    </li>
+    <li data-nav-id="/recipes/ci_cd/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/recipes/ci_cd/">CI/CD</a><i class="fa fa-angle-right fa-lg category-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/recipes/ci_cd/implement_rely_best_practices/" class="dd-item">
+        <div>
+          <a href="/recipes/ci_cd/implement_rely_best_practices/">
+            Implement Rely Best Practices
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/recipes/ci_cd/improve_code_coverage_in_cxs/" class="dd-item">
+        <div>
+          <a href="/recipes/ci_cd/improve_code_coverage_in_cxs/">
+            Improve Code Coverage in CXS
+          </a>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/recipes/cxs/" class="dd-item parent active haschildren
+        ">
+      <div>
+      <a href="/recipes/cxs/">CXS</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/recipes/cxs/standing_up_new_cxs/" class="dd-item">
+        <div>
+          <a href="/recipes/cxs/standing_up_new_cxs/">
+            Standing Up New Cxs
+          </a>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/recipes/fast_track_items/" class="dd-item
+        ">
+      <div>
+      <a href="/recipes/fast_track_items/">Fast Track Items</a>
+      </div>
+    </li>
+    <li data-nav-id="/recipes/production/" class="dd-item
+        ">
+      <div>
+      <a href="/recipes/production/">Production</a>
+      </div>
+    </li>
+        </ul>
+    </li>
+
+
+
+
+    </ul>
+    <section>
+<div style="text-align: center">
+    
+    <a class="github-button" href="https://gitlab.prod.fedex.com/APP4067/apptx-cookbook.git" data-icon="octicon-cloud-download" aria-label="Download apptx-cookbook on GitLab">
+      <img style="max-width:64px;" alt="GitLab" src="/images/gitlab.png"><br>
+      View on GitLab
+    </a>
+    <br>
+</div>
+
+
+
+
+    </section>
+  </aside>
+  <section class="page">
+    
+    <div class="nav-select">
+      <center>Navigation : 
+        <select onchange="javascript:location.href = this.value;">
+          
+    <option value="/recipes/" >
+   Recipes</option> 
+    <option value="/recipes/apim/" >
+   APIM</option>
+    <option value="/recipes/ci_cd/" >
+   CI/CD</option>
+    <option value="/recipes/cxs/"  selected>
+   CXS</option> 
+      <option value="/recipes/cxs/standing_up_new_cxs/" > Standing Up New Cxs</option>
+  
+    <option value="/recipes/fast_track_items/" >
+   Fast Track Items</option>
+    <option value="/recipes/production/" >
+   Production</option>
+  
+
+
+
+        </select>
+      </center>
+    </div>
+      <div>
+        <div class="searchbox">
+          <input data-search-input id="search-by" type="text" placeholder="Search...">
+        </div>
+        <script type="text/javascript" src="/js/lunr.min.js"></script>
+        <script type="text/javascript" src="/js/auto-complete.js"></script>
+        <link href="/css/auto-complete.css" rel="stylesheet">
+        <script type="text/javascript">
+          
+              var baseurl = "\/";
+          
+        </script>
+        <script type="text/javascript" src="/js/search.js"></script>
+      </div>
+    
+
+    <h1>CXS</h1>
+    
+    
+    
+
+<p>Customer Experience Services, often called CXS, are the middleware applications which holds a communication between UI and FAST applications.
+CXS are build based on REST calls. Currently, we have 25 CXS applications which deals with different modules of FedEx business such as Shipping, Rating, Tracking.
+CXS recipe modules have all the details such as how to create, and maintain the new CXS; REST API standards; CXS Error Standards; Procedures to upgrade JDK and WL version; API Versioning.</p>
+
+<p>New Joinees&rsquo; can look at the different recipes to understand what is in and out of CXS.</p>
+
+
+
+    
+    
+        <div class="chevrons">
+    <div id="navigation">
+<a class="nav nav-prev" href="/recipes/ci_cd/improve_code_coverage_in_cxs/" title="Improve Code Coverage in CXS"> <i class="fa fa-chevron-left"></i><label>Improve Code Coverage in CXS</label></a>
+    <a class="nav nav-next" href="/recipes/cxs/standing_up_new_cxs/" title="Standing Up New Cxs" style="margin-right: 0px;"><label>Standing Up New Cxs</label><i class="fa fa-chevron-right"></i></a></div>
+  </div>
+
+  </section>
+</article>
+
+<footer>
+
+<div class="footline">
+    
+
+    
+
+    
+    <div class="date">
+        <i class='fa fa-calendar'></i> Last update on 26/10/2018
+    </div>
+    
+
+    
+    <div class="github-link">
+      <a href="https://gitlab.prod.fedex.com/APP4067/apptx-cookbookrecipes/cxs/_index.md" target="blank"><i class="fa fa-code-fork"></i>
+        Improve this page</a>
+    </div>
+    
+  </div>
+
+
+	<div>
+
+
+  
+    Create a content/_footer.md file to customize the footer content
+  
+
+
+
+	</div>
+</footer>
+
+<script src="/js/clipboard.min.js"></script>
+
+<link href="/css/featherlight.min.css" rel="stylesheet">
+<script src="/js/featherlight.min.js"></script>
+
+
+
+<script src="/theme-flex/script.js"></script>
+
+
+    
+
+    
+    
+
+    
+  </body>
+</html>

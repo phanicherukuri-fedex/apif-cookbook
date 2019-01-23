@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>APIF Cookbook</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="generator" content="Hugo 0.49" />
+<title>Standing Up New Cxs :: APIF Cookbook</title>
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+<link href="/css/font-awesome.min.css" rel="stylesheet">
+<link href="/css/nucleus.css" rel="stylesheet">
+<link href="/theme-flex/style.css" rel="stylesheet">
+
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+<script src="/js/jquery-2.x.min.js"></script>
+<script type="text/javascript">
+      var baseurl = "\/";
+</script>
+<link href="/css/custom.css" rel="stylesheet">
+
+
+    
+  </head>
+  <body data-url="/recipes/cxs/standing_up_new_cxs/">
+    
+      <header>
+  <div class="logo">
+    
+	
+  
+    <a class="baselink" href="/">APIF Cookbook</a>
+  
+
+
+  </div>
+  <div class="burger"><a href="javascript:void(0);" style="font-size:15px;">&#9776;</a></div>
+    <nav class="shortcuts">
+            <li class="" role="">
+                <a href="https://github.com/vjeantet/hugo-theme-docdock"  rel="noopener">
+                  <i class='fa fa-github'></i> <label>Github repo</label>
+                </a>
+            </li>
+            <li class="" role="">
+                <a href="/credits"  rel="noopener">
+                  <i class='fa fa-bullhorn'></i> <label>Credits</label>
+                </a>
+            </li>
+    </nav>
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+    <li data-nav-id="/recipes/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/recipes/">Recipes</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i>
+      </div>
+        <ul>
+    <li data-nav-id="/recipes/apim/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/recipes/apim/">APIM</a><i class="fa fa-angle-right fa-lg category-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/recipes/apim/cxs_application_devframework_integration_document_in_3.0_and_3.5/" class="dd-item">
+        <div>
+          <a href="/recipes/apim/cxs_application_devframework_integration_document_in_3.0_and_3.5/">
+            Cxs_application_devframework_integration_document_in_3.0_and_3
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/recipes/apim/procedures_to_upgrade_jdk_and_wl_version/" class="dd-item">
+        <div>
+          <a href="/recipes/apim/procedures_to_upgrade_jdk_and_wl_version/">
+            Procedures_to_upgrade_jdk_and_wl_version
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/recipes/apim/rest_standards/" class="dd-item">
+        <div>
+          <a href="/recipes/apim/rest_standards/">
+            REST Standards
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/recipes/apim/request_response_structure_standards/" class="dd-item">
+        <div>
+          <a href="/recipes/apim/request_response_structure_standards/">
+            Request_response_structure_standards
+          </a>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/recipes/ci_cd/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/recipes/ci_cd/">CI/CD</a><i class="fa fa-angle-right fa-lg category-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/recipes/ci_cd/implement_rely_best_practices/" class="dd-item">
+        <div>
+          <a href="/recipes/ci_cd/implement_rely_best_practices/">
+            Implement Rely Best Practices
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/recipes/ci_cd/improve_code_coverage_in_cxs/" class="dd-item">
+        <div>
+          <a href="/recipes/ci_cd/improve_code_coverage_in_cxs/">
+            Improve Code Coverage in CXS
+          </a>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/recipes/cxs/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/recipes/cxs/">CXS</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/recipes/cxs/standing_up_new_cxs/" class="dd-item active">
+        <div>
+          <a href="/recipes/cxs/standing_up_new_cxs/">
+            Standing Up New Cxs
+          </a>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/recipes/fast_track_items/" class="dd-item
+        ">
+      <div>
+      <a href="/recipes/fast_track_items/">Fast Track Items</a>
+      </div>
+    </li>
+    <li data-nav-id="/recipes/production/" class="dd-item
+        ">
+      <div>
+      <a href="/recipes/production/">Production</a>
+      </div>
+    </li>
+        </ul>
+    </li>
+
+
+
+
+    </ul>
+    <section>
+<div style="text-align: center">
+    
+    <a class="github-button" href="https://gitlab.prod.fedex.com/APP4067/apptx-cookbook.git" data-icon="octicon-cloud-download" aria-label="Download apptx-cookbook on GitLab">
+      <img style="max-width:64px;" alt="GitLab" src="/images/gitlab.png"><br>
+      View on GitLab
+    </a>
+    <br>
+</div>
+
+
+
+
+    </section>
+  </aside>
+  <section class="page">
+    
+    <div class="nav-select">
+      <center>Navigation : 
+        <select onchange="javascript:location.href = this.value;">
+          
+    <option value="/recipes/" >
+   Recipes</option> 
+    <option value="/recipes/apim/" >
+   APIM</option>
+    <option value="/recipes/ci_cd/" >
+   CI/CD</option>
+    <option value="/recipes/cxs/" >
+   CXS</option> 
+      <option value="/recipes/cxs/standing_up_new_cxs/"  selected> Standing Up New Cxs</option>
+  
+    <option value="/recipes/fast_track_items/" >
+   Fast Track Items</option>
+    <option value="/recipes/production/" >
+   Production</option>
+  
+
+
+
+        </select>
+      </center>
+    </div>
+      <div>
+        <div class="searchbox">
+          <input data-search-input id="search-by" type="text" placeholder="Search...">
+        </div>
+        <script type="text/javascript" src="/js/lunr.min.js"></script>
+        <script type="text/javascript" src="/js/auto-complete.js"></script>
+        <link href="/css/auto-complete.css" rel="stylesheet">
+        <script type="text/javascript">
+          
+              var baseurl = "\/";
+          
+        </script>
+        <script type="text/javascript" src="/js/search.js"></script>
+      </div>
+    
+
+    <h1>Standing Up New Cxs</h1>
+    
+    
+    
+    
+
+<h3 id="api-development-steps">API Development Steps</h3>
+
+<ul>
+<li>Creating of new CXS 3.5 project</li>
+<li>Create REST controller class</li>
+<li>Create Process class and migrate validation logic from 3.0 to 3.5 Process class</li>
+<li>For each FAST, create a service class (with hystrix setup) and migrate FAST Transaction</li>
+<li>For each DB call, create a service class (with hystrix setup) and migrate DB native call to JPA call</li>
+<li>For each CXS REST call, create a service class (with hystrix setup) and migrate to CXS REST call. If the provider is 3.5 REST app, use discovery client(ex. CFMS)</li>
+<li>For each SOAP call, create a service class (with hystrix setup) and migrate SOAP using new Spring SOAP library in CALC 3.5</li>
+<li>For each JMS, create a service class (with hystrix setup) and migrate JMS publish/subscribe using Spring JMS in CXS 3.5</li>
+<li>Additional items:
+
+<ul>
+<li>Integrate FCL/ADMC authentication if needed.</li>
+<li>Migrate any properties to yml files. Make sure reloadable entries are configured correctly.</li>
+<li>Migrate Resource Bundles using Spring Resource Bundles.</li>
+<li>Modify error codes as per 3.0 mapping file</li>
+</ul></li>
+<li>Resolve any critical/major SonarQube issues</li>
+<li>Validate overall integration of all 3.5 sub components by verifying functional sanity of the end point.</li>
+</ul>
+
+<h3 id="application-setup">Application Setup</h3>
+
+<h4 id="pre-requisites">Pre-requisites</h4>
+
+<h5 id="required-software-s">Required Software&rsquo;s</h5>
+
+<ul>
+<li>Java Development Kit                    -       1.8<br /></li>
+<li>IDE                                     -       Eclipse</li>
+<li>REST Controller Framework               -       Spring Web MVC</li>
+<li>Micro Service Application Framework     -       Spring Boot</li>
+<li>Logging                                 -       Spring logback</li>
+<li>Version Control System                  -       GIT</li>
+<li>Build Tool                              -       Maven</li>
+<li>Code Coverage                           -       JaCoCo</li>
+<li>Static Analysis                         -       SonarQube</li>
+<li>Database                                -       Oracle</li>
+<li>Unit Testing                            -       JUnit</li>
+<li>BDD Testing                             -       Cucumber</li>
+<li>Deployment and Release                  -       Enterprise Jenkins (Cloud Bees)</li>
+<li>Spring Cloud Config (Server and Cloud)  -       Spring Cloud</li>
+<li>Spring Batch for Model and Transformation-      Spring Boot Starter Data JPA</li>
+<li>Hystrix Dashboard Aggregator                -   Spring Cloud Turbine (Linux/64-bit)</li>
+<li>Secret Key Config Manager                   -   Vault</li>
+<li>Service Registration and Discovery          -   Eureka</li>
+<li>Load Balancer (Client SLB)                  -   Netflix Ribbon</li>
+<li>JMS                                         -   Spring JMS</li>
+<li>Type-safe Bean Mapping                      -   Mapstruct</li>
+<li>Testing                                     -   Postman</li>
+</ul>
+
+<h5 id="access">Access</h5>
+
+<p>Follow below steps to get access for GIT Repo</p>
+
+<ul>
+<li>Go to <a href="https://oam.secure.fedex.com/oam/server/obrareq.cgi?encquery%3DG7YDZHSEb%2BcFEN6pKfTtapI7Cj%2FrFddmeF4EsDnhgoDIbsbCVzwSDczpEDqyRzaN9R6z2SsjSxm168ehIUxcz9pPF15m7YMjHxBtoOUE2Xu4SuvQ1JgufXKCVunpFtqGIQe3nNjNRTBEUFQ%2BL1%2Fm7OPeJgxNnsPNP5JDFx0h4sRIgiZwtqssbiY21riRymJITq2HA5xsNYlXMy3IzSYgHgTWnpHZY8LI1hHKG8uXTNMUymrNwrPjXmcRklRFs8MMpGqQqXomVKtQRny8pBhZmFx6a6cVkBOCBLTBb%2Fu%2F1ibTRS5fsF9%2BYSULTkHZyCby%20agentid%3DWTCApacheWebgate%20ver%3D1%20crmethod%3D2%26cksum%3D93168ca730cb2b390cbbc091eaf89ecf048de98e">Image</a> in <a href="http://home.fedex.com">FedEx home</a></li>
+<li>Go to Manager User Access</li>
+<li>Enter Employee ID in Select Users tab</li>
+<li>Enter EAI number in Select Access tab</li>
+<li>Enter comments in Review and Submit tab and click Submit</li>
+</ul>
+
+<h3 id="development">Development</h3>
+
+<h4 id="creating-new-cxs-3-5-application">Creating new CXS 3.5 Application</h4>
+
+<p>Refer <a href="https://collab.purplehub.fedex.com/Communities/Customer%20Experience%20Service/Documents/CXS%203.5/CXS%203.5%20Maven%20Archetype%20Developers%20Guide_v3.5.docx">CXS 3.5 Maven Archetype guide</a> to create a new CXS 3.5 Micro Service</p>
+
+<h4 id="integration-with-cxs-3-5-supporting-apps">Integration with CXS 3.5 Supporting apps</h4>
+
+<h5 id="config-server">Config Server</h5>
+
+<p>CXS connects to Config Service to fetch configurations from Config git yml files. Each application has common config entries, level specific entries.</p>
+
+<p>Note: It is not recommended to have application dev yml file in Config Service as it intended only in dev mode and doesn’t need integration.</p>
+
+<p>Following  steps explain how to setup Config Service in local and connect.</p>
+
+<ul>
+<li><a href="https://conexus.prod.fedex.com:9443/git/3531288/fedex_com_cxsconfigservice.git">Config Service</a></li>
+<li>Run the Config Service application ConfigServerApplication. By default config service spring boot app <a href="http://localhost:8888/config">starts</a> on the port 8888.</li>
+<li>Configurations for level specific can be fetched using <a href="http://localhost:8888/config/{cxs-application-name}/{profile">http://localhost:8888/config/{cxs-application-name}/{profile</a>}</li>
+<li>CXS connects to config server based on configuration defined in bootstrap-dev.yml. If fail fast is marked as false, CXS will ignore even if config server is not connecting.
+e.g.,</li>
+</ul>
+
+<pre><code> spring:
+    cloud:
+        config:
+            fail-fast: false
+            retry:
+                initial-interval: 1000
+                max-interval: 2000
+                max-attempts: 100
+            uri: http://localhost:8888/config
+
+</code></pre>
+
+<p>Following is a snippet for availabilitycxs from config server in local.
+URL: <a href="http://localhost:8888/config/availabilitycxs/dev">http://localhost:8888/config/availabilitycxs/dev</a></p>
+
+<pre><code>{&quot;name&quot;:&quot;availabilitycxs&quot;,&quot;profiles&quot;:[&quot;dev&quot;],&quot;label&quot;:&quot;master&quot;,&quot;version&quot;:&quot;2116b1b2e920443a1e32266ed2df09de34504b93&quot;,&quot;state&quot;:null,&quot;propertySources&quot;:[{&quot;name&quot;:&quot;https://conexus.prod.fedex.com:9443/git/3531288/cxs_devtest_configs.git/application-dev.yml&quot;,&quot;source&quot;:{&quot;discovery.registry.user&quot;:&quot;admin&quot;,&quot;discovery.registry.password&quot;:&quot;admin&quot;,&quot;eureka.client.serviceUrl.defaultZone&quot;:&quot;http://localhost:8761/regs/eureka/&quot;}},{&quot;name&quot;:&quot;https://conexus.prod.fedex.com:9443/git/3531288/cxs_devtest_configs.git/application.yml&quot;,&quot;source&quot;:{&quot;configserver.name&quot;:&quot;fedex.cxs.configserver config server&quot;,&quot;configserver.status&quot;:&quot;Connected to the fedex.cxs.configserver git config server!&quot;,&quot;spring.cloud.loadbalancer.retry.enabled&quot;:true,&quot;cfms.ribbon.ConnectTimeout&quot;:1000,&quot;cfms.ribbon.ReadTimeout&quot;:3000,&quot;cfms.ribbon.MaxAutoRetries&quot;:0,&quot;cfms.ribbon.MaxAutoRetriesNextServer&quot;:4,&quot;cfms.ribbon.OkToRetryOnAllOperations&quot;:true,&quot;eureka.server.waitTimeInMsWhenSyncEmpty&quot;:0,&quot;eureka.server.enableSelfPreservation&quot;:false,&quot;eureka.instance.prefer-ip-address&quot;:false,&quot;eureka.instance.lease-renewal-interval-in-seconds&quot;:5,&quot;eureka.instance.lease-expiration-duration-in-seconds&quot;:10,&quot;eureka.instance.status-page-url-path&quot;:&quot;${management.context-path}/info&quot;,&quot;eureka.instance.health-check-url-path&quot;:&quot;${management.context-path}/health&quot;,&quot;eureka.instance.metadata-map.profile&quot;:&quot;${spring.profiles.active}&quot;,&quot;eureka.instance.metadata-map.version&quot;:&quot;${info.project.version}&quot;,&quot;eureka.client.enabled&quot;:true,&quot;eureka.client.healthcheck.enabled&quot;:true,&quot;eureka.client.instance-info-replication-interval-seconds&quot;:10,&quot;eureka.client.registry-fetch-interval-seconds&quot;:10,&quot;eureka.client.serviceUrl.defaultZone&quot;:&quot;http://${discovery.registry.user:admin}:${discovery.registry.password:admin}@${discovery.registry.host:localhost}:${discovery.registry.port}/regs/eureka/&quot;,&quot;management.context-path&quot;:&quot;/management&quot;,&quot;management.security.enabled&quot;:false,&quot;management.health.jms.enabled&quot;:false,&quot;management.health.config.enabled&quot;:false,&quot;endpoints.health.sensitive&quot;:false}}]}
+</code></pre>
+
+<h5 id="registry-eureka-service">Registry/Eureka Service</h5>
+
+<p>CXS connects to Registry service which provides registration and lookup features in cloud environment.</p>
+
+<p><em>Note</em>: It is not required to setup local registry service to Develop CXS. CXS needs registry service if it has to use Discovery client for CFMS. In order to disable connecting to registry service, comment out the @EnableDiscoveryClient on the main application class.</p>
+
+<p>Steps to setup Eureka service in Local:</p>
+
+<ul>
+<li>Check out <a href="https://conexus.prod.fedex.com:9443/git/3531287/fedex_com_cxsregistryservice.git">Registry CXS</a></li>
+<li>Build and run the application by running the main class - CxsregistryApplication.</li>
+<li>Verify application <a href="http://localhost:8761/regs/registry">start up</a></li>
+<li>CXS connects to registry based on below configuration in dev yml files.</li>
+</ul>
+
+<pre><code>#application-dev.yml
+discovery:
+  registry:
+    user: admin
+      password: admin
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/regs/eureka/
+</code></pre>
+
+<h5 id="cfms">CFMS</h5>
+
+<p>CXS connects to CFMS to populate messages. CFMS can be invoked through over APIG or CXS directly. In CXS 3.5, CFMS is connected through Discovery Client capability of Spring Cloud. To configure the same, following entries need to be present in respective cxs yml files.</p>
+
+<pre><code>cfms.v3.service.hostname: cfms
+cfms.v3.callThroughAPIG: false
+cfms.v3.service.uri: /customermessage/v1/messages/info
+cfms.v3.service.secured: false
+cfms.v3.service.media.types: application/json
+cfms.v3.service.response.version: apig-cxs-v3
+cfms.v3.service.request.media.types: application/json
+</code></pre>
+
+<h5 id="hystrix-dashboard">Hystrix Dashboard</h5>
+
+<p>CXS connects to Hystrix(through registry service) and publishes its metrics.
+Follow below steps to setup HDBS in local view local CXS metrics.</p>
+
+<ul>
+<li>Check out <a href="https://conexus.prod.fedex.com:9443/git/3531289/fedex_com_cxshystrixdashboard.git">HDBS</a></li>
+<li>Build and run the application at HystrixMonitorApplication.</li>
+<li>View the application at below URL&rsquo;s:
+
+<ul>
+<li><a href="http://localhost:7999/hdbs/hystrix.stream">http://localhost:7999/hdbs/hystrix.stream</a></li>
+<li><a href="http://localhost:7999/hdbs/hystrix/monitor?stream=http%3A%2F%2Flocalhost%3A7999%2Fhdbs%2Fturbine.stream">http://localhost:7999/hdbs/hystrix/monitor?stream=http%3A%2F%2Flocalhost%3A7999%2Fhdbs%2Fturbine.stream</a></li>
+</ul></li>
+</ul>
+
+<h5 id="devframework">DevFramework</h5>
+
+<p>Devframework integration is needed to make a secure call to any secured backend system. We need to configure the following:</p>
+
+<ul>
+<li>Uncomment the devframework dependencies &ldquo;css jar&rdquo; pom entries in master pom xml present at the root of the respective project.</li>
+<li>Path to client.properties file with keystore file location and other info. Usually there are only 2 set of files, one for lower levels (client.test.properties) and another one for PROD (client.prod.properties). Copy these files over from existing 3.0 application server to build-distribution/appsec directory in 3.5 project. These files are copied over to appsec directory on server during staging process. The configuration is done in resources/config/application-<profile>.yml as shown below</li>
+<li>Keystore file (*.p12). Usually there are only 2 set of files, one for lower levels (APP*.test.p12) and another one for PROD (APP*.prod.p12). Copy latest files over from existing 3.0 application server to build-distribution/appsec directory in 3.5 project. These files are copied over to appsec directory on server during staging process. These files are referred to from client.properties file mentioned above</li>
+<li>Path to security.properties file. Usually there are one such file per level (security.L0.properties, security.L1.properties etc. Copy these files over from existing 3.0 project or application server to resources directory in 3.5 project. These files are packaged in the main jar file for the application. The configuration is done in resources/config/application-<profile>.yml.</li>
+<li>fp.properties file, copy this file from existing 3.0 application to resources directory in 3.5 project. This file is packaged in the main jar file for the application.</li>
+<li>CDS uri and default service AppId. This is done in resources/config/application-<profile>.yml as shown below.</li>
+</ul>
+
+<pre><code>cxs:
+    security:
+        devFramework:
+            clientPropertiesPath:  /opt/fedex/cfmscxs/appsec/client.test.properties
+            securityPropertiesPath: security.L3.properties
+            cds:
+                defaultUri: http://cds-level3.ute.fedex.com/CommonDataService/clear/
+                defaultServiceAppId: 943415_cds
+</code></pre>
+
+<ul>
+<li>Bootstrap devframework through a set of spring beans. Refer to SecurityConfiguration class in CFMS project(com.fedex.cxs.cfms.config.SecurityConfiguration.java) for the reference:</li>
+</ul>
+
+<pre><code>@Bean
+    @DependsOn({&quot;cdsSecurityAction&quot;,&quot;cdsSecurityRole&quot;,&quot;cdsSecurityAppRole&quot;,
+        &quot;cdsSecurityGroupRole&quot;,&quot;cdsSecurityUserRole&quot;,&quot;cdsSecurityExtendedRule&quot;,
+        &quot;cdsSecurityExtRuleXRef&quot;,&quot;cdsSecurityRule&quot;,&quot;cdsSecurityResource&quot;})
+    public CSSBootstrap15 securityBootstrap()
+    {
+        String clientPropPath = cxsProperties.getSecurity().getDevFramework().getClientPropertiesPath();
+        String securityPropPath = cxsProperties.getSecurity().getDevFramework().getSecurityPropertiesPath();
+        LOGGER.debug(&quot;Bootstrapping DevFramework with clientPropertyFilePath=[&quot; + clientPropPath
+                +&quot;] and securityPropertyFilePath=[&quot; + securityPropPath +&quot;]&quot;);
+        CSSBootstrap15 bs15 = new CSSBootstrap15();
+        bs15.setClient(true);
+        bs15.setService(true);
+        bs15.setClientProperties(clientPropPath);
+        bs15.setSecurityProperties(securityPropPath);
+        return bs15;
+    }
+    @Bean
+    public CdsClient cdsClient(WebServiceTemplate wsTemplate)
+    {
+        CdsClient cdsClient = new CdsClient();
+        cdsClient.setWebServiceTemplate(wsTemplate);
+        return cdsClient;
+    }
+    @Bean
+    public CdsSecurityBase cdsSecurityBase(CdsClient cdsClient)
+    {
+        CdsSecurityBase cdsSecurityBase = new CdsSecurityBase();
+        cdsSecurityBase.setCdsClient(cdsClient);
+        return cdsSecurityBase;
+    }
+    @Bean
+    public SaajSoapMessageFactory messageFactory()
+    {
+        return new SaajSoapMessageFactory();
+    }
+    @Bean
+    public WebServiceTemplate wsTemplate(WebServiceMessageFactory messageFactory,
+            Jaxb2Marshaller cdsMarshaller)
+    {
+        WebServiceTemplate wsTemplate = new WebServiceTemplate();
+        wsTemplate.setMessageFactory(messageFactory);
+        wsTemplate.setDefaultUri(cxsProperties.getSecurity().getDevFramework().getCds().getDefaultUri());
+        wsTemplate.setMarshaller(cdsMarshaller);
+        wsTemplate.setUnmarshaller(cdsMarshaller);
+        wsTemplate.setInterceptors(new ClientInterceptor[]{wsSecurityInterceptor(wsTemplate)});
+        return wsTemplate;
+    }
+    @Bean
+    public ClientInterceptor wsSecurityInterceptor(WebServiceTemplate wsTemplate)
+    {
+        SpringClientWsSecurityTokenInterceptor interceptor =
+                new SpringClientWsSecurityTokenInterceptor();
+        interceptor.setWebServiceTemplate(wsTemplate);
+        interceptor.setDefaultServiceAppId(
+                cxsProperties.getSecurity().getDevFramework().getCds().getDefaultServiceAppId());
+        return interceptor;
+    }
+    @Bean
+    public Jaxb2Marshaller cdsMarshaller()
+    {
+        Jaxb2Marshaller marshaller = new Jaxb2Marshaller();
+        marshaller.setContextPath(&quot;com.fedex.framework.cds&quot;);
+        return marshaller;
+    }
+    @Bean
+    public CdsSecurityAction cdsSecurityAction()
+    {
+        return new CdsSecurityAction();
+    }
+    @Bean
+    public CdsSecurityRole cdsSecurityRole()
+    {
+        return new CdsSecurityRole();
+    }
+    @Bean
+    public CdsSecurityAppRole cdsSecurityAppRole()
+    {
+        return new CdsSecurityAppRole();
+    }
+    @Bean
+    public CdsSecurityGroupRole cdsSecurityGroupRole()
+    {
+        return new CdsSecurityGroupRole();
+    }
+    @Bean
+    public CdsSecurityUserRole cdsSecurityUserRole()
+    {
+        return new CdsSecurityUserRole();
+    }
+    @Bean
+    public CdsSecurityExtendedRule cdsSecurityExtendedRule()
+    {
+        return new CdsSecurityExtendedRule();
+    }
+    @Bean
+    public CdsSecurityExtRuleXRef cdsSecurityExtRuleXRef()
+    {
+        return new CdsSecurityExtRuleXRef();
+    }
+    @Bean
+    public CdsSecurityRule cdsSecurityRule()
+    {
+        return new CdsSecurityRule();
+    }
+    @Bean
+    public CdsSecurityResource cdsSecurityResource()
+    {
+        return new CdsSecurityResource();
+    }
+</code></pre>
+
+<h4 id="api-development">API Development</h4>
+
+<h5 id="hystrix-setup">Hystrix Setup</h5>
+
+<h6 id="configuration">Configuration</h6>
+
+<ul>
+<li>Add class level annotation @EnableCircuitBreaker</li>
+<li>Add method level annotation</li>
+</ul>
+
+<pre><code>@HystrixCommand(groupKey = &quot;RATCServiceGroupKey&quot;,
+            commandKey = &quot;RATCServiceGetRatesCommandKey&quot;, threadPoolKey = &quot;RATCServiceThreadPoolKey&quot;,fallbackMethod=&quot;defaultRates&quot;)
+</code></pre>
+
+<ul>
+<li>Declare command key and thread pool configurations in application yml files</li>
+</ul>
+
+<p>Example:</p>
+
+<pre><code>RATCServiceGetRatesCommandKey:
+            execution:
+                isolation:
+                    strategy : THREAD
+                    maxConcurrentRequests : 10          
+                    thread:
+                        timeoutInMilliseconds : 10000
+                        interruptOnTimeout : true
+                timeout:
+                    enabled : true
+            fallback:
+                enabled : true
+            circuitBreaker:
+                enabled : true
+                requestVolumeThreshold : 20
+                sleepWindowInMilliseconds : 5000
+                errorThresholdPercentage : 50
+                forceOpen : false
+                forceClosed : false
+            metrics:
+                rollingStats:
+                    timeInMilliseconds : 10000
+                    numBuckets : 10
+                rollingPercentile:
+                    enabled : true
+                    timeInMilliseconds : 60000
+                    numBuckets : 6
+                    bucketSize : 100
+                healthSnapshot:
+                    intervalInMilliseconds : 500
+            requestCache:
+                enabled : true
+            requestLog:
+                enabled : true
+        RATCServiceThreadPoolKey:
+            coreSize : 10
+            maxQueueSize : 101
+            allowMaximumSizeToDivergeFromCoreSize: true
+            queueSizeRejectionThreshold : 15
+            keepAliveTimeMinutes : 2
+            metrics:
+                rollingStats:
+                    numBuckets : 12
+                    timeInMilliseconds : 1440
+
+</code></pre>
+
+<h6 id="fallback-methods">Fallback Methods</h6>
+
+<p>Fallback methods are triggered based on Hystrix configuration set in above section. Fallback methods can have same request/response arguments as the original method. In addition it can have Throwable parameter to access the underlying exception that caused hystrix failure.</p>
+
+<p>Example:</p>
+
+<pre><code>/* Fall Back method to return default rate Response for anonymous shipment.
+ * @param shipShipmentInput
+ * @param clientContext
+ * @param rootCause
+ * @return
+ */
+public RateOutputVO defaultRates(
+        ShipShipmentInputVO shipShipmentInput, ClientContextVO clientContext,Throwable rootCause) {
+    LOGGER.error(&quot;Error fetching Rates from RATC for Anonymous Shipment.&quot;, rootCause);
+    LOGGER.warn(&quot;Fall back method triggered. Returning default Rates&quot;);
+    RateOutputVO output = new RateOutputVO();
+    List&lt;RateReplyDetail&gt; rateReplyDetails = new ArrayList&lt;RateReplyDetail&gt;();
+    RateReplyDetail rateReplyDetail = new RateReplyDetail();
+    rateReplyDetail.setAnonymouslyAllowable(true);
+    rateReplyDetails.add(rateReplyDetail);
+    output.setRateReplyDetails(rateReplyDetails);
+    return output;
+    }
+</code></pre>
+
+<h5 id="corcuit-breaker">Corcuit Breaker</h5>
+
+<p>Circuit or a connection between caller service and called service can be configured by parameters. Refer <a href="https://github.com/Netflix/Hystrix/wiki/Configuration#CommandCircuitBreaker">Circuit Breaker</a></p>
+
+<pre><code>circuitBreaker:
+    enabled: true
+    requestVolumeThreshold: 20
+    sleepWindowInMilliseconds: 5000
+    errorThresholdPercentage: 50
+    forceOpen: false
+    forceClosed: false
+</code></pre>
+
+<p>When circuit breaker opens the circuit, HDSB display as:
+<img src="/images/standing-up-new-cxs/circuit_breaker.png" alt="Circuit Breaker" /></p>
+
+<h5 id="backend-calls">Backend Calls</h5>
+
+<h6 id="fast-service-factory-properties-in-yml-files">FAST - Service Factory Properties in YML Files</h6>
+
+<ul>
+<li>Add Service Factory level specific properties files under root content folder.
+<img src="/images/standing-up-new-cxs/service_factory_properties.png" alt="Service Factory" /></li>
+<li>Define Fast call dom properties and service factory file location in application.yml (Level Specific)</li>
+</ul>
+
+<pre><code>fast:
+  cnty:
+    domeMajorVersion: 3
+    domIntermediateVersion: 1
+    domMinorVersion: 0
+    softwareId: INET
+    softwareReleaseVersion: 35
+    applicationId: commondatacal
+    softwareReleaseRevision: 52
+    serviceFactoryFileLocation: content/cnty/servicefactory/properties.L2-wtc
+</code></pre>
+
+<h6 id="error-handling-fast-to-cxs-error-code-conversation">Error Handling - FAST To CXS Error Code Conversation</h6>
+
+<ul>
+<li>Define FAST error codes and messages in main application.yml under cxs</li>
+</ul>
+
+<pre><code>fast:
+  defaultConversationCodeProperties:
+    VACS-501: ADDRESS.IS.REQUIRED
+    VACS-797: ADULTSIGNATURE.NOT.ALLOWED
+    VACS-795: ADULTSIGNATURE.SERVICESELECTED.NOTALLOWED
+    VACS-422: AIRBILL.NOT.ALLOWED
+    VACS-506: AIRBILL.VACSVALIDATION.FAILED
+    VACS-463: AIRPORT.COMMITMENT.NOTNULL
+    VACS-1073: ANCILLARYENDORSEMENT.TYPE.ERROR
+</code></pre>
+
+<ul>
+<li>Code that retrieves the FAST error code equivalent code and invokes CFMS service to retrieve the error message for the given code.</li>
+</ul>
+
+<pre><code>/*
+ * @param code  test
+ * @return
+ */
+private String getErrorTextFromCFMS(String code) {
+    String cxsErrorCode = (String) CommonAppConfig.getInstance().getDefaultConversionCodeProperties().get(code);
+    if(!StringUtils.isEmpty(cxsErrorCode)){
+        List&lt;CXSError&gt; errors = new ArrayList&lt;CXSError&gt;();
+        errors.add(new CXSError(cxsErrorCode));
+        try {
+            cfmsService.populateMessagesFromCFMS(TransactionIdProvider.get(), clientContextVO, errors);
+        } catch (CFMSClientValidationException | CFMSClientSystemException e) {
+            LOGGER.error(&quot;Exception while retrieving the error messages from CFMS&quot;,e);
+        }
+    }
+        return cxsErrorCode;
+}
+</code></pre>
+
+<h6 id="database">Database</h6>
+
+
+    
+    
+        <div class="chevrons">
+    <div id="navigation">
+<a class="nav nav-prev" href="/recipes/cxs/" title="CXS"> <i class="fa fa-chevron-left"></i><label>CXS</label></a>
+    <a class="nav nav-next" href="/recipes/fast_track_items/" title="Fast Track Items" style="margin-right: 0px;"><label>Fast Track Items</label><i class="fa fa-chevron-right"></i></a></div>
+  </div>
+
+  </section>
+</article>
+
+<footer>
+
+<div class="footline">
+    
+    <div class="tags"> 
+      
+        <a class="label label-default" href="/tags/foo">[foo]</a>
+      
+    </div>
+    
+
+    
+
+    
+    <div class="date">
+        <i class='fa fa-calendar'></i> Last update on 26/10/2018
+    </div>
+    
+
+    
+    <div class="github-link">
+      <a href="https://gitlab.prod.fedex.com/APP4067/apptx-cookbookrecipes/cxs/standing_up_new_cxs.md" target="blank"><i class="fa fa-code-fork"></i>
+        Improve this page</a>
+    </div>
+    
+  </div>
+
+
+	<div>
+
+
+  
+    Create a content/_footer.md file to customize the footer content
+  
+
+
+
+	</div>
+</footer>
+
+<script src="/js/clipboard.min.js"></script>
+
+<link href="/css/featherlight.min.css" rel="stylesheet">
+<script src="/js/featherlight.min.js"></script>
+
+
+
+<script src="/theme-flex/script.js"></script>
+
+
+    
+
+    
+    
+
+    
+  </body>
+</html>

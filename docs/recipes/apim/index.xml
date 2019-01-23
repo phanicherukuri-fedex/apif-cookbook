@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>APIM on APIF Cookbook</title>
+    <link>/recipes/apim/</link>
+    <description>Recent content in APIM on APIF Cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>@2019 FedEx Services</copyright>
+    <lastBuildDate>Thu, 06 Dec 2018 16:16:22 -0600</lastBuildDate>
+    
+	<atom:link href="/recipes/apim/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Request_response_structure_standards</title>
+      <link>/recipes/apim/request_response_structure_standards/</link>
+      <pubDate>Thu, 06 Dec 2018 16:16:22 -0600</pubDate>
+      
+      <guid>/recipes/apim/request_response_structure_standards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cxs_application_devframework_integration_document_in_3.0_and_3</title>
+      <link>/recipes/apim/cxs_application_devframework_integration_document_in_3.0_and_3.5/</link>
+      <pubDate>Thu, 06 Dec 2018 16:15:31 -0600</pubDate>
+      
+      <guid>/recipes/apim/cxs_application_devframework_integration_document_in_3.0_and_3.5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Procedures_to_upgrade_jdk_and_wl_version</title>
+      <link>/recipes/apim/procedures_to_upgrade_jdk_and_wl_version/</link>
+      <pubDate>Thu, 06 Dec 2018 16:14:40 -0600</pubDate>
+      
+      <guid>/recipes/apim/procedures_to_upgrade_jdk_and_wl_version/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>REST Standards</title>
+      <link>/recipes/apim/rest_standards/</link>
+      <pubDate>Mon, 03 Dec 2018 19:38:04 -0500</pubDate>
+      
+      <guid>/recipes/apim/rest_standards/</guid>
+      <description>REST Standards Purpose This document defines URI standards, dos and don’ts for Unified API strategy. In FedEx RESTful APIs, the client specifies an action using an HTTP verb such as POST, GET, PUT, or DELETE. It specifies a resource by a globally-unique URI of the following template
+URI Standards  Use only Nouns (No Verbs) Use plurals for resources like shipments/pickups Http methods used for verb  GET: Retrieve resource POST: Create resource PUT: Update resource DELETE: Delete resource  All the URI parts are in lower case URI Hierarchy is important Hackable &amp;lsquo;up the tree&amp;rsquo;.</description>
+    </item>
+    
+  </channel>
+</rss>

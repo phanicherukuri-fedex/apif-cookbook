@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>APIF Cookbook</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="generator" content="Hugo 0.49" />
+<title>REST Standards :: APIF Cookbook</title>
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+<link href="/css/font-awesome.min.css" rel="stylesheet">
+<link href="/css/nucleus.css" rel="stylesheet">
+<link href="/theme-flex/style.css" rel="stylesheet">
+
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+<script src="/js/jquery-2.x.min.js"></script>
+<script type="text/javascript">
+      var baseurl = "\/";
+</script>
+<link href="/css/custom.css" rel="stylesheet">
+
+
+    
+  </head>
+  <body data-url="/recipes/apim/rest_standards/">
+    
+      <header>
+  <div class="logo">
+    
+	
+  
+    <a class="baselink" href="/">APIF Cookbook</a>
+  
+
+
+  </div>
+  <div class="burger"><a href="javascript:void(0);" style="font-size:15px;">&#9776;</a></div>
+    <nav class="shortcuts">
+            <li class="" role="">
+                <a href="https://github.com/vjeantet/hugo-theme-docdock"  rel="noopener">
+                  <i class='fa fa-github'></i> <label>Github repo</label>
+                </a>
+            </li>
+            <li class="" role="">
+                <a href="/credits"  rel="noopener">
+                  <i class='fa fa-bullhorn'></i> <label>Credits</label>
+                </a>
+            </li>
+    </nav>
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+    <li data-nav-id="/recipes/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/recipes/">Recipes</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i>
+      </div>
+        <ul>
+    <li data-nav-id="/recipes/apim/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/recipes/apim/">APIM</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/recipes/apim/cxs_application_devframework_integration_document_in_3.0_and_3.5/" class="dd-item">
+        <div>
+          <a href="/recipes/apim/cxs_application_devframework_integration_document_in_3.0_and_3.5/">
+            Cxs_application_devframework_integration_document_in_3.0_and_3
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/recipes/apim/procedures_to_upgrade_jdk_and_wl_version/" class="dd-item">
+        <div>
+          <a href="/recipes/apim/procedures_to_upgrade_jdk_and_wl_version/">
+            Procedures_to_upgrade_jdk_and_wl_version
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/recipes/apim/rest_standards/" class="dd-item active">
+        <div>
+          <a href="/recipes/apim/rest_standards/">
+            REST Standards
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/recipes/apim/request_response_structure_standards/" class="dd-item">
+        <div>
+          <a href="/recipes/apim/request_response_structure_standards/">
+            Request_response_structure_standards
+          </a>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/recipes/ci_cd/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/recipes/ci_cd/">CI/CD</a><i class="fa fa-angle-right fa-lg category-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/recipes/ci_cd/implement_rely_best_practices/" class="dd-item">
+        <div>
+          <a href="/recipes/ci_cd/implement_rely_best_practices/">
+            Implement Rely Best Practices
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/recipes/ci_cd/improve_code_coverage_in_cxs/" class="dd-item">
+        <div>
+          <a href="/recipes/ci_cd/improve_code_coverage_in_cxs/">
+            Improve Code Coverage in CXS
+          </a>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/recipes/cxs/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/recipes/cxs/">CXS</a><i class="fa fa-angle-right fa-lg category-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/recipes/cxs/standing_up_new_cxs/" class="dd-item">
+        <div>
+          <a href="/recipes/cxs/standing_up_new_cxs/">
+            Standing Up New Cxs
+          </a>
+        </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/recipes/fast_track_items/" class="dd-item
+        ">
+      <div>
+      <a href="/recipes/fast_track_items/">Fast Track Items</a>
+      </div>
+    </li>
+    <li data-nav-id="/recipes/production/" class="dd-item
+        ">
+      <div>
+      <a href="/recipes/production/">Production</a>
+      </div>
+    </li>
+        </ul>
+    </li>
+
+
+
+
+    </ul>
+    <section>
+<div style="text-align: center">
+    
+    <a class="github-button" href="https://gitlab.prod.fedex.com/APP4067/apptx-cookbook.git" data-icon="octicon-cloud-download" aria-label="Download apptx-cookbook on GitLab">
+      <img style="max-width:64px;" alt="GitLab" src="/images/gitlab.png"><br>
+      View on GitLab
+    </a>
+    <br>
+</div>
+
+
+
+
+    </section>
+  </aside>
+  <section class="page">
+    
+    <div class="nav-select">
+      <center>Navigation : 
+        <select onchange="javascript:location.href = this.value;">
+          
+    <option value="/recipes/" >
+   Recipes</option> 
+    <option value="/recipes/apim/" >
+   APIM</option> 
+      <option value="/recipes/apim/cxs_application_devframework_integration_document_in_3.0_and_3.5/" > Cxs_application_devframework_integration_document_in_3.0_and_3</option>
+      <option value="/recipes/apim/procedures_to_upgrade_jdk_and_wl_version/" > Procedures_to_upgrade_jdk_and_wl_version</option>
+      <option value="/recipes/apim/rest_standards/"  selected> REST Standards</option>
+      <option value="/recipes/apim/request_response_structure_standards/" > Request_response_structure_standards</option>
+  
+    <option value="/recipes/ci_cd/" >
+   CI/CD</option>
+    <option value="/recipes/cxs/" >
+   CXS</option>
+    <option value="/recipes/fast_track_items/" >
+   Fast Track Items</option>
+    <option value="/recipes/production/" >
+   Production</option>
+  
+
+
+
+        </select>
+      </center>
+    </div>
+      <div>
+        <div class="searchbox">
+          <input data-search-input id="search-by" type="text" placeholder="Search...">
+        </div>
+        <script type="text/javascript" src="/js/lunr.min.js"></script>
+        <script type="text/javascript" src="/js/auto-complete.js"></script>
+        <link href="/css/auto-complete.css" rel="stylesheet">
+        <script type="text/javascript">
+          
+              var baseurl = "\/";
+          
+        </script>
+        <script type="text/javascript" src="/js/search.js"></script>
+      </div>
+    
+
+    <h1>REST Standards</h1>
+    
+    
+    
+    
+
+<h1 id="rest-standards">REST Standards</h1>
+
+<h2 id="purpose">Purpose</h2>
+
+<p>This document defines URI standards, dos and don’ts for Unified API strategy. In FedEx RESTful APIs, the client specifies an
+action using an HTTP verb such as POST, GET, PUT, or DELETE. It specifies a resource by a globally-unique URI of the following
+<a href="https://api.fedex.com/islandName/apiVersion/resourcePath/endpointPath?parameters">template</a></p>
+
+<p><img src="/images/rest-standards/rest_triangle.png" alt="Hystrix Dashboard Screenshot 1" /></p>
+
+<h2 id="uri-standards">URI Standards</h2>
+
+<ol>
+<li>Use only Nouns (No Verbs)</li>
+<li>Use plurals for resources like shipments/pickups</li>
+<li>Http methods used for verb
+
+<ul>
+<li>GET: Retrieve resource</li>
+<li>POST: Create resource</li>
+<li>PUT: Update resource</li>
+<li>DELETE: Delete resource</li>
+</ul></li>
+<li>All the URI parts are in lower case</li>
+<li>URI Hierarchy is important</li>
+<li>Hackable &lsquo;up the tree&rsquo;. The user should be able to remove the leaf path and get an expected page back.</li>
+<li>Predictable&gt; Human-guessable. If your URLs are meaningful they may also be predictable. If your users understand them and predict what a URL for a given resource is then may be able to go
+&lsquo;straight there&rsquo; without having to find a hyperlink on a page. If your URIs are predictable, then your developers will argue less over what should be used for new resource types.</li>
+<li>Query parameters are used for filtering/pagination/sorting.</li>
+<li>Tied to a resource. Permanent. The URI will continue to work while the resource exists, and despite the resource potentially changing over the time. This basically represents versioning part of the resources which doesn&rsquo;t impacts or changes the current URI because every URI will have consumers.</li>
+<li>Return a representation (e.g. XML or JSON) based on the request header, like Accept and Accept-Language rather than a change in the URI.</li>
+</ol>
+
+<h5 id="things-to-avoid">Things to Avoid</h5>
+
+<ol>
+<li>Do not use characters that require URL encoding in URIs (e.g. spaces)</li>
+<li>Do not use singular nouns for resources</li>
+<li>Do not use mixed or camel case in URIs</li>
+<li>Do not use verb in URI. Few bad examples
+
+<ul>
+<li>POST <a href="https://api.fedex.com/update/shipment/12345">https://api.fedex.com/update/shipment/12345</a></li>
+<li>PUT <a href="https://api.fedex.com/update-shipment/12345">https://api.fedex.com/update-shipment/12345</a></li>
+<li>GET <a href="https://api.fedex.com/shipmentServices?action=updateshipment&amp;trackingNumber=12345">https://api.fedex.com/shipmentServices?action=updateshipment&amp;trackingNumber=12345</a></li>
+</ul></li>
+</ol>
+
+<p><strong>Examples</strong></p>
+
+<ol>
+<li><a href="https://api.fedex.com/ship/v1/shipments">https://api.fedex.com/ship/v1/shipments</a>
+
+<ul>
+<li>GET: Retrieves list of shipments</li>
+<li>POST: Create a new shipment</li>
+<li>PUT: Not supported: Currently we are only support one shipment at a time.</li>
+<li>DELETE: Not supported: Group shipment delete is not supported</li>
+</ul></li>
+<li><a href="https://api.fedex.com/ship/v1/shipments/{trackingNumber">https://api.fedex.com/ship/v1/shipments/{trackingNumber</a>}
+
+<ul>
+<li>GET: Retrieves shipment details</li>
+<li>POST: Not supported: Shipment is already created vhj</li>
+<li>PUT: Update shipment details</li>
+<li>DELETE: Delete shipment</li>
+</ul></li>
+<li><a href="https://api.fedex.com/country/v1/countries?type=sender">https://api.fedex.com/country/v1/countries?type=sender</a>
+
+<ul>
+<li>GET: Retrieves list of countries for the type sender</li>
+<li>POST: Not supported</li>
+<li>PUT: Not supported</li>
+<li>DELETE: Not supported</li>
+</ul></li>
+<li><a href="https://api.fedex.com/country/v1/countries/US">https://api.fedex.com/country/v1/countries/US</a>
+
+<ul>
+<li>GET: Retrieves the country detail for US</li>
+<li>POST: Not supported</li>
+<li>PUT: Not supported</li>
+<li>DELETE: Not supported</li>
+</ul></li>
+</ol>
+
+<h2 id="resource-naming">Resource Naming</h2>
+
+<p>Resource naming is most important concept when creating an understandable, easily leveraged Web service API.
+When resources are named well, an API is intuitive and easy to use.
+The constraint of uniform interface is partially addressed by the combination of URIs and HTTP verbs and using them in line with the standards and conventions.</p>
+
+<p><strong>Some tips are:</strong></p>
+
+<ul>
+<li>In deciding what resources are within your system, name them as nouns as opposed to verbs or actions. In other words, a RESTful URI should refer to a resource that is a thing instead of referring to an action.</li>
+<li>Resource in a service suite will have at least one URI that URIs should follow a predictable, hierarchical structure to enhance understandability and therefore usability.</li>
+<li>Predictable in the sense that they&rsquo;re consistent, hierarchical in the sense that data has structure relationships. This is not a REST rule or constraint, but it enhances the API.</li>
+</ul>
+
+<p>RESTful APIs are written for consumers. The name and structure of URIs should convey meaning to those consumers.
+Let&rsquo;s say we&rsquo;re describing an order system with customers, orders, line items, products, etc. Consider the URIs involved in describing the resources in this service suite.</p>
+
+<h3 id="resource-naming-anti-patterns">Resource Naming Anti-Patterns</h3>
+
+<p>It&rsquo;s informative to see some anti-patterns so that we can make sure what not to do.
+Below are some examples of poor RESTful resource URIs.</p>
+
+<ol>
+<li>Services use a single URI to specify the service interface, using query-string parameters to specify the requested operation and/or HTTP verb.
+For example,
+To update customer with ID 12345, the request for a JSON body might be:
+
+<ul>
+<li>GET <a href="http://api.example.com/services?op=update_customer&amp;id=12345&amp;format=json">http://api.example.com/services?op=update_customer&amp;id=12345&amp;format=json</a></li>
+<li>Though the &lsquo;services&rsquo; URL node is a noun, this URL is not self- descriptive</li>
+<li>It uses GET as the HTTP verb even though we&rsquo;re performing an update</li>
+</ul></li>
+<li>Here&rsquo;s another example following the same operation of updating a customer:
+
+<ul>
+<li>GET <a href="http://api.example.com/update_customer/12345">http://api.example.com/update_customer/12345</a></li>
+<li>GET <a href="http://api.example.com/customers/12345/update">http://api.example.com/customers/12345/update</a></li>
+</ul></li>
+</ol>
+
+
+    
+    
+        <div class="chevrons">
+    <div id="navigation">
+<a class="nav nav-prev" href="/recipes/apim/procedures_to_upgrade_jdk_and_wl_version/" title="Procedures_to_upgrade_jdk_and_wl_version"> <i class="fa fa-chevron-left"></i><label>Procedures_to_upgrade_jdk_and_wl_version</label></a>
+    <a class="nav nav-next" href="/recipes/ci_cd/" title="CI/CD" style="margin-right: 0px;"><label>CI/CD</label><i class="fa fa-chevron-right"></i></a></div>
+  </div>
+
+  </section>
+</article>
+
+<footer>
+
+<div class="footline">
+    
+    <div class="tags"> 
+      
+        <a class="label label-default" href="/tags/rest">REST</a>
+      
+        <a class="label label-default" href="/tags/rest-standards">Rest Standards</a>
+      
+    </div>
+    
+
+    
+
+    
+    <div class="date">
+        <i class='fa fa-calendar'></i> Last update on 03/12/2018
+    </div>
+    
+
+    
+    <div class="github-link">
+      <a href="https://gitlab.prod.fedex.com/APP4067/apptx-cookbookrecipes/apim/rest_standards.md" target="blank"><i class="fa fa-code-fork"></i>
+        Improve this page</a>
+    </div>
+    
+  </div>
+
+
+	<div>
+
+
+  
+    Create a content/_footer.md file to customize the footer content
+  
+
+
+
+	</div>
+</footer>
+
+<script src="/js/clipboard.min.js"></script>
+
+<link href="/css/featherlight.min.css" rel="stylesheet">
+<script src="/js/featherlight.min.js"></script>
+
+
+
+<script src="/theme-flex/script.js"></script>
+
+
+    
+
+    
+    
+
+    
+  </body>
+</html>

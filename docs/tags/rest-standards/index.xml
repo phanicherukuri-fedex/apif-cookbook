@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rest Standards on APIF Cookbook</title>
+    <link>/tags/rest-standards/</link>
+    <description>Recent content in Rest Standards on APIF Cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>@2019 FedEx Services</copyright>
+    <lastBuildDate>Mon, 03 Dec 2018 19:38:04 -0500</lastBuildDate>
+    
+	<atom:link href="/tags/rest-standards/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>REST Standards</title>
+      <link>/recipes/apim/rest_standards/</link>
+      <pubDate>Mon, 03 Dec 2018 19:38:04 -0500</pubDate>
+      
+      <guid>/recipes/apim/rest_standards/</guid>
+      <description>REST Standards Purpose This document defines URI standards, dos and don’ts for Unified API strategy. In FedEx RESTful APIs, the client specifies an action using an HTTP verb such as POST, GET, PUT, or DELETE. It specifies a resource by a globally-unique URI of the following template
+URI Standards  Use only Nouns (No Verbs) Use plurals for resources like shipments/pickups Http methods used for verb  GET: Retrieve resource POST: Create resource PUT: Update resource DELETE: Delete resource  All the URI parts are in lower case URI Hierarchy is important Hackable &amp;lsquo;up the tree&amp;rsquo;.</description>
+    </item>
+    
+  </channel>
+</rss>
