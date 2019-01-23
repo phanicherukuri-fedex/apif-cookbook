@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on APIF Cookbook</title>
-    <link>/categories/</link>
+    <link>https://phanicherukuri-fedex.github.io/apif-cookbook/categories/</link>
     <description>Recent content in Categories on APIF Cookbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>@2019 FedEx Services</copyright>
     
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://phanicherukuri-fedex.github.io/apif-cookbook/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Recipes</title>
-      <link>/categories/recipes/</link>
+      <link>https://phanicherukuri-fedex.github.io/apif-cookbook/categories/recipes/</link>
       <pubDate>Mon, 03 Dec 2018 19:38:04 -0500</pubDate>
       
-      <guid>/categories/recipes/</guid>
+      <guid>https://phanicherukuri-fedex.github.io/apif-cookbook/categories/recipes/</guid>
       <description></description>
     </item>
     

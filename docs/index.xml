@@ -2,86 +2,86 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Introduction on APIF Cookbook</title>
-    <link>/</link>
+    <link>https://phanicherukuri-fedex.github.io/apif-cookbook/</link>
     <description>Recent content in Introduction on APIF Cookbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>@2019 FedEx Services</copyright>
     <lastBuildDate>Thu, 29 Nov 2018 14:38:50 -0600</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://phanicherukuri-fedex.github.io/apif-cookbook/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Request_response_structure_standards</title>
-      <link>/recipes/apim/request_response_structure_standards/</link>
+      <link>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/apim/request_response_structure_standards/</link>
       <pubDate>Thu, 06 Dec 2018 16:16:22 -0600</pubDate>
       
-      <guid>/recipes/apim/request_response_structure_standards/</guid>
+      <guid>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/apim/request_response_structure_standards/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cxs_application_devframework_integration_document_in_3.0_and_3</title>
-      <link>/recipes/apim/cxs_application_devframework_integration_document_in_3.0_and_3.5/</link>
+      <link>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/apim/cxs_application_devframework_integration_document_in_3.0_and_3.5/</link>
       <pubDate>Thu, 06 Dec 2018 16:15:31 -0600</pubDate>
       
-      <guid>/recipes/apim/cxs_application_devframework_integration_document_in_3.0_and_3.5/</guid>
+      <guid>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/apim/cxs_application_devframework_integration_document_in_3.0_and_3.5/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Procedures_to_upgrade_jdk_and_wl_version</title>
-      <link>/recipes/apim/procedures_to_upgrade_jdk_and_wl_version/</link>
+      <link>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/apim/procedures_to_upgrade_jdk_and_wl_version/</link>
       <pubDate>Thu, 06 Dec 2018 16:14:40 -0600</pubDate>
       
-      <guid>/recipes/apim/procedures_to_upgrade_jdk_and_wl_version/</guid>
+      <guid>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/apim/procedures_to_upgrade_jdk_and_wl_version/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Implement Rely Best Practices</title>
-      <link>/recipes/ci_cd/implement_rely_best_practices/</link>
+      <link>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/ci_cd/implement_rely_best_practices/</link>
       <pubDate>Thu, 06 Dec 2018 16:05:59 -0600</pubDate>
       
-      <guid>/recipes/ci_cd/implement_rely_best_practices/</guid>
+      <guid>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/ci_cd/implement_rely_best_practices/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Improve Code Coverage in CXS</title>
-      <link>/recipes/ci_cd/improve_code_coverage_in_cxs/</link>
+      <link>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/ci_cd/improve_code_coverage_in_cxs/</link>
       <pubDate>Thu, 06 Dec 2018 16:05:59 -0600</pubDate>
       
-      <guid>/recipes/ci_cd/improve_code_coverage_in_cxs/</guid>
+      <guid>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/ci_cd/improve_code_coverage_in_cxs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>REST Standards</title>
-      <link>/recipes/apim/rest_standards/</link>
+      <link>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/apim/rest_standards/</link>
       <pubDate>Mon, 03 Dec 2018 19:38:04 -0500</pubDate>
       
-      <guid>/recipes/apim/rest_standards/</guid>
+      <guid>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/apim/rest_standards/</guid>
       <description>REST Standards Purpose This document defines URI standards, dos and don’ts for Unified API strategy. In FedEx RESTful APIs, the client specifies an action using an HTTP verb such as POST, GET, PUT, or DELETE. It specifies a resource by a globally-unique URI of the following template
 URI Standards  Use only Nouns (No Verbs) Use plurals for resources like shipments/pickups Http methods used for verb  GET: Retrieve resource POST: Create resource PUT: Update resource DELETE: Delete resource  All the URI parts are in lower case URI Hierarchy is important Hackable &amp;lsquo;up the tree&amp;rsquo;.</description>
     </item>
     
     <item>
       <title>Standing Up New Cxs</title>
-      <link>/recipes/cxs/standing_up_new_cxs/</link>
+      <link>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/cxs/standing_up_new_cxs/</link>
       <pubDate>Fri, 26 Oct 2018 09:55:14 -0500</pubDate>
       
-      <guid>/recipes/cxs/standing_up_new_cxs/</guid>
+      <guid>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/cxs/standing_up_new_cxs/</guid>
       <description>API Development Steps  Creating of new CXS 3.5 project Create REST controller class Create Process class and migrate validation logic from 3.0 to 3.5 Process class For each FAST, create a service class (with hystrix setup) and migrate FAST Transaction For each DB call, create a service class (with hystrix setup) and migrate DB native call to JPA call For each CXS REST call, create a service class (with hystrix setup) and migrate to CXS REST call.</description>
     </item>
     
     <item>
       <title>Credits</title>
-      <link>/credits/</link>
+      <link>https://phanicherukuri-fedex.github.io/apif-cookbook/credits/</link>
       <pubDate>Thu, 29 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/credits/</guid>
+      <guid>https://phanicherukuri-fedex.github.io/apif-cookbook/credits/</guid>
       <description>Contributors  Kasi Narayanan Arunachalam Shobha Jagannatharaju Sandhya Urlam Phani Cherukuri  * Special Thanks to Drew Terrell and Matt Lum</description>
     </item>
     

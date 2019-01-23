@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on APIF Cookbook</title>
-    <link>/tags/</link>
+    <link>https://phanicherukuri-fedex.github.io/apif-cookbook/tags/</link>
     <description>Recent content in Tags on APIF Cookbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>@2019 FedEx Services</copyright>
     <lastBuildDate>Fri, 26 Oct 2018 09:55:14 -0500</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://phanicherukuri-fedex.github.io/apif-cookbook/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Foo</title>
-      <link>/tags/foo/</link>
+      <link>https://phanicherukuri-fedex.github.io/apif-cookbook/tags/foo/</link>
       <pubDate>Fri, 26 Oct 2018 09:55:14 -0500</pubDate>
       
-      <guid>/tags/foo/</guid>
+      <guid>https://phanicherukuri-fedex.github.io/apif-cookbook/tags/foo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rest</title>
-      <link>/tags/rest/</link>
+      <link>https://phanicherukuri-fedex.github.io/apif-cookbook/tags/rest/</link>
       <pubDate>Mon, 03 Dec 2018 19:38:04 -0500</pubDate>
       
-      <guid>/tags/rest/</guid>
+      <guid>https://phanicherukuri-fedex.github.io/apif-cookbook/tags/rest/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rest Standards</title>
-      <link>/tags/rest-standards/</link>
+      <link>https://phanicherukuri-fedex.github.io/apif-cookbook/tags/rest-standards/</link>
       <pubDate>Mon, 03 Dec 2018 19:38:04 -0500</pubDate>
       
-      <guid>/tags/rest-standards/</guid>
+      <guid>https://phanicherukuri-fedex.github.io/apif-cookbook/tags/rest-standards/</guid>
       <description></description>
     </item>
     

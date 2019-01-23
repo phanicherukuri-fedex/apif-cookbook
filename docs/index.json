@@ -1,146 +1,146 @@
 [
 {
-	"uri": "/recipes/apim/request_response_structure_standards/",
+	"uri": "https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/apim/request_response_structure_standards/",
 	"title": "Request_response_structure_standards",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "/recipes/apim/cxs_application_devframework_integration_document_in_3.0_and_3.5/",
+	"uri": "https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/apim/cxs_application_devframework_integration_document_in_3.0_and_3.5/",
 	"title": "Cxs_application_devframework_integration_document_in_3.0_and_3",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "/recipes/apim/procedures_to_upgrade_jdk_and_wl_version/",
+	"uri": "https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/apim/procedures_to_upgrade_jdk_and_wl_version/",
 	"title": "Procedures_to_upgrade_jdk_and_wl_version",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "/recipes/ci_cd/implement_rely_best_practices/",
+	"uri": "https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/ci_cd/implement_rely_best_practices/",
 	"title": "Implement Rely Best Practices",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "/recipes/ci_cd/improve_code_coverage_in_cxs/",
+	"uri": "https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/ci_cd/improve_code_coverage_in_cxs/",
 	"title": "Improve Code Coverage in CXS",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "/recipes/apim/rest_standards/",
+	"uri": "https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/apim/rest_standards/",
 	"title": "REST Standards",
 	"tags": ["REST", "Rest Standards"],
 	"description": "REST standards to follow while designing services",
 	"content": " REST Standards Purpose This document defines URI standards, dos and don’ts for Unified API strategy. In FedEx RESTful APIs, the client specifies an action using an HTTP verb such as POST, GET, PUT, or DELETE. It specifies a resource by a globally-unique URI of the following template\nURI Standards  Use only Nouns (No Verbs) Use plurals for resources like shipments/pickups Http methods used for verb  GET: Retrieve resource POST: Create resource PUT: Update resource DELETE: Delete resource  All the URI parts are in lower case URI Hierarchy is important Hackable \u0026lsquo;up the tree\u0026rsquo;. The user should be able to remove the leaf path and get an expected page back. Predictable\u0026gt; Human-guessable. If your URLs are meaningful they may also be predictable. If your users understand them and predict what a URL for a given resource is then may be able to go \u0026lsquo;straight there\u0026rsquo; without having to find a hyperlink on a page. If your URIs are predictable, then your developers will argue less over what should be used for new resource types. Query parameters are used for filtering/pagination/sorting. Tied to a resource. Permanent. The URI will continue to work while the resource exists, and despite the resource potentially changing over the time. This basically represents versioning part of the resources which doesn\u0026rsquo;t impacts or changes the current URI because every URI will have consumers. Return a representation (e.g. XML or JSON) based on the request header, like Accept and Accept-Language rather than a change in the URI.  Things to Avoid  Do not use characters that require URL encoding in URIs (e.g. spaces) Do not use singular nouns for resources Do not use mixed or camel case in URIs Do not use verb in URI. Few bad examples  POST https://api.fedex.com/update/shipment/12345 PUT https://api.fedex.com/update-shipment/12345 GET https://api.fedex.com/shipmentServices?action=updateshipment\u0026amp;trackingNumber=12345   Examples\n https://api.fedex.com/ship/v1/shipments  GET: Retrieves list of shipments POST: Create a new shipment PUT: Not supported: Currently we are only support one shipment at a time. DELETE: Not supported: Group shipment delete is not supported  https://api.fedex.com/ship/v1/shipments/{trackingNumber}  GET: Retrieves shipment details POST: Not supported: Shipment is already created vhj PUT: Update shipment details DELETE: Delete shipment  https://api.fedex.com/country/v1/countries?type=sender  GET: Retrieves list of countries for the type sender POST: Not supported PUT: Not supported DELETE: Not supported  https://api.fedex.com/country/v1/countries/US  GET: Retrieves the country detail for US POST: Not supported PUT: Not supported DELETE: Not supported   Resource Naming Resource naming is most important concept when creating an understandable, easily leveraged Web service API. When resources are named well, an API is intuitive and easy to use. The constraint of uniform interface is partially addressed by the combination of URIs and HTTP verbs and using them in line with the standards and conventions.\nSome tips are:\n In deciding what resources are within your system, name them as nouns as opposed to verbs or actions. In other words, a RESTful URI should refer to a resource that is a thing instead of referring to an action. Resource in a service suite will have at least one URI that URIs should follow a predictable, hierarchical structure to enhance understandability and therefore usability. Predictable in the sense that they\u0026rsquo;re consistent, hierarchical in the sense that data has structure relationships. This is not a REST rule or constraint, but it enhances the API.  RESTful APIs are written for consumers. The name and structure of URIs should convey meaning to those consumers. Let\u0026rsquo;s say we\u0026rsquo;re describing an order system with customers, orders, line items, products, etc. Consider the URIs involved in describing the resources in this service suite.\nResource Naming Anti-Patterns It\u0026rsquo;s informative to see some anti-patterns so that we can make sure what not to do. Below are some examples of poor RESTful resource URIs.\n Services use a single URI to specify the service interface, using query-string parameters to specify the requested operation and/or HTTP verb. For example, To update customer with ID 12345, the request for a JSON body might be:  GET http://api.example.com/services?op=update_customer\u0026amp;id=12345\u0026amp;format=json Though the \u0026lsquo;services\u0026rsquo; URL node is a noun, this URL is not self- descriptive It uses GET as the HTTP verb even though we\u0026rsquo;re performing an update  Here\u0026rsquo;s another example following the same operation of updating a customer:  GET http://api.example.com/update_customer/12345 GET http://api.example.com/customers/12345/update   "
 },
 {
-	"uri": "/",
+	"uri": "https://phanicherukuri-fedex.github.io/apif-cookbook/",
 	"title": "Introduction",
 	"tags": [],
 	"description": "Default Home Page",
 	"content": ""
 },
 {
-	"uri": "/recipes/cxs/standing_up_new_cxs/",
+	"uri": "https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/cxs/standing_up_new_cxs/",
 	"title": "Standing Up New Cxs",
 	"tags": ["[foo]"],
 	"description": "Recipe Summary",
 	"content": " API Development Steps  Creating of new CXS 3.5 project Create REST controller class Create Process class and migrate validation logic from 3.0 to 3.5 Process class For each FAST, create a service class (with hystrix setup) and migrate FAST Transaction For each DB call, create a service class (with hystrix setup) and migrate DB native call to JPA call For each CXS REST call, create a service class (with hystrix setup) and migrate to CXS REST call. If the provider is 3.5 REST app, use discovery client(ex. CFMS) For each SOAP call, create a service class (with hystrix setup) and migrate SOAP using new Spring SOAP library in CALC 3.5 For each JMS, create a service class (with hystrix setup) and migrate JMS publish/subscribe using Spring JMS in CXS 3.5 Additional items:  Integrate FCL/ADMC authentication if needed. Migrate any properties to yml files. Make sure reloadable entries are configured correctly. Migrate Resource Bundles using Spring Resource Bundles. Modify error codes as per 3.0 mapping file  Resolve any critical/major SonarQube issues Validate overall integration of all 3.5 sub components by verifying functional sanity of the end point.  Application Setup Pre-requisites Required Software\u0026rsquo;s  Java Development Kit - 1.8\n IDE - Eclipse REST Controller Framework - Spring Web MVC Micro Service Application Framework - Spring Boot Logging - Spring logback Version Control System - GIT Build Tool - Maven Code Coverage - JaCoCo Static Analysis - SonarQube Database - Oracle Unit Testing - JUnit BDD Testing - Cucumber Deployment and Release - Enterprise Jenkins (Cloud Bees) Spring Cloud Config (Server and Cloud) - Spring Cloud Spring Batch for Model and Transformation- Spring Boot Starter Data JPA Hystrix Dashboard Aggregator - Spring Cloud Turbine (Linux/64-bit) Secret Key Config Manager - Vault Service Registration and Discovery - Eureka Load Balancer (Client SLB) - Netflix Ribbon JMS - Spring JMS Type-safe Bean Mapping - Mapstruct Testing - Postman  Access Follow below steps to get access for GIT Repo\n Go to Image in FedEx home Go to Manager User Access Enter Employee ID in Select Users tab Enter EAI number in Select Access tab Enter comments in Review and Submit tab and click Submit  Development Creating new CXS 3.5 Application Refer CXS 3.5 Maven Archetype guide to create a new CXS 3.5 Micro Service\nIntegration with CXS 3.5 Supporting apps Config Server CXS connects to Config Service to fetch configurations from Config git yml files. Each application has common config entries, level specific entries.\nNote: It is not recommended to have application dev yml file in Config Service as it intended only in dev mode and doesn’t need integration.\nFollowing steps explain how to setup Config Service in local and connect.\n Config Service Run the Config Service application ConfigServerApplication. By default config service spring boot app starts on the port 8888. Configurations for level specific can be fetched using http://localhost:8888/config/{cxs-application-name}/{profile} CXS connects to config server based on configuration defined in bootstrap-dev.yml. If fail fast is marked as false, CXS will ignore even if config server is not connecting. e.g.,   spring: cloud: config: fail-fast: false retry: initial-interval: 1000 max-interval: 2000 max-attempts: 100 uri: http://localhost:8888/config  Following is a snippet for availabilitycxs from config server in local. URL: http://localhost:8888/config/availabilitycxs/dev\n{\u0026quot;name\u0026quot;:\u0026quot;availabilitycxs\u0026quot;,\u0026quot;profiles\u0026quot;:[\u0026quot;dev\u0026quot;],\u0026quot;label\u0026quot;:\u0026quot;master\u0026quot;,\u0026quot;version\u0026quot;:\u0026quot;2116b1b2e920443a1e32266ed2df09de34504b93\u0026quot;,\u0026quot;state\u0026quot;:null,\u0026quot;propertySources\u0026quot;:[{\u0026quot;name\u0026quot;:\u0026quot;https://conexus.prod.fedex.com:9443/git/3531288/cxs_devtest_configs.git/application-dev.yml\u0026quot;,\u0026quot;source\u0026quot;:{\u0026quot;discovery.registry.user\u0026quot;:\u0026quot;admin\u0026quot;,\u0026quot;discovery.registry.password\u0026quot;:\u0026quot;admin\u0026quot;,\u0026quot;eureka.client.serviceUrl.defaultZone\u0026quot;:\u0026quot;http://localhost:8761/regs/eureka/\u0026quot;}},{\u0026quot;name\u0026quot;:\u0026quot;https://conexus.prod.fedex.com:9443/git/3531288/cxs_devtest_configs.git/application.yml\u0026quot;,\u0026quot;source\u0026quot;:{\u0026quot;configserver.name\u0026quot;:\u0026quot;fedex.cxs.configserver config server\u0026quot;,\u0026quot;configserver.status\u0026quot;:\u0026quot;Connected to the fedex.cxs.configserver git config server!\u0026quot;,\u0026quot;spring.cloud.loadbalancer.retry.enabled\u0026quot;:true,\u0026quot;cfms.ribbon.ConnectTimeout\u0026quot;:1000,\u0026quot;cfms.ribbon.ReadTimeout\u0026quot;:3000,\u0026quot;cfms.ribbon.MaxAutoRetries\u0026quot;:0,\u0026quot;cfms.ribbon.MaxAutoRetriesNextServer\u0026quot;:4,\u0026quot;cfms.ribbon.OkToRetryOnAllOperations\u0026quot;:true,\u0026quot;eureka.server.waitTimeInMsWhenSyncEmpty\u0026quot;:0,\u0026quot;eureka.server.enableSelfPreservation\u0026quot;:false,\u0026quot;eureka.instance.prefer-ip-address\u0026quot;:false,\u0026quot;eureka.instance.lease-renewal-interval-in-seconds\u0026quot;:5,\u0026quot;eureka.instance.lease-expiration-duration-in-seconds\u0026quot;:10,\u0026quot;eureka.instance.status-page-url-path\u0026quot;:\u0026quot;${management.context-path}/info\u0026quot;,\u0026quot;eureka.instance.health-check-url-path\u0026quot;:\u0026quot;${management.context-path}/health\u0026quot;,\u0026quot;eureka.instance.metadata-map.profile\u0026quot;:\u0026quot;${spring.profiles.active}\u0026quot;,\u0026quot;eureka.instance.metadata-map.version\u0026quot;:\u0026quot;${info.project.version}\u0026quot;,\u0026quot;eureka.client.enabled\u0026quot;:true,\u0026quot;eureka.client.healthcheck.enabled\u0026quot;:true,\u0026quot;eureka.client.instance-info-replication-interval-seconds\u0026quot;:10,\u0026quot;eureka.client.registry-fetch-interval-seconds\u0026quot;:10,\u0026quot;eureka.client.serviceUrl.defaultZone\u0026quot;:\u0026quot;http://${discovery.registry.user:admin}:${discovery.registry.password:admin}@${discovery.registry.host:localhost}:${discovery.registry.port}/regs/eureka/\u0026quot;,\u0026quot;management.context-path\u0026quot;:\u0026quot;/management\u0026quot;,\u0026quot;management.security.enabled\u0026quot;:false,\u0026quot;management.health.jms.enabled\u0026quot;:false,\u0026quot;management.health.config.enabled\u0026quot;:false,\u0026quot;endpoints.health.sensitive\u0026quot;:false}}]}  Registry/Eureka Service CXS connects to Registry service which provides registration and lookup features in cloud environment.\nNote: It is not required to setup local registry service to Develop CXS. CXS needs registry service if it has to use Discovery client for CFMS. In order to disable connecting to registry service, comment out the @EnableDiscoveryClient on the main application class.\nSteps to setup Eureka service in Local:\n Check out Registry CXS Build and run the application by running the main class - CxsregistryApplication. Verify application start up CXS connects to registry based on below configuration in dev yml files.  #application-dev.yml discovery: registry: user: admin password: admin eureka: client: serviceUrl: defaultZone: http://localhost:8761/regs/eureka/  CFMS CXS connects to CFMS to populate messages. CFMS can be invoked through over APIG or CXS directly. In CXS 3.5, CFMS is connected through Discovery Client capability of Spring Cloud. To configure the same, following entries need to be present in respective cxs yml files.\ncfms.v3.service.hostname: cfms cfms.v3.callThroughAPIG: false cfms.v3.service.uri: /customermessage/v1/messages/info cfms.v3.service.secured: false cfms.v3.service.media.types: application/json cfms.v3.service.response.version: apig-cxs-v3 cfms.v3.service.request.media.types: application/json  Hystrix Dashboard CXS connects to Hystrix(through registry service) and publishes its metrics. Follow below steps to setup HDBS in local view local CXS metrics.\n Check out HDBS Build and run the application at HystrixMonitorApplication. View the application at below URL\u0026rsquo;s:  http://localhost:7999/hdbs/hystrix.stream http://localhost:7999/hdbs/hystrix/monitor?stream=http%3A%2F%2Flocalhost%3A7999%2Fhdbs%2Fturbine.stream   DevFramework Devframework integration is needed to make a secure call to any secured backend system. We need to configure the following:\n Uncomment the devframework dependencies \u0026ldquo;css jar\u0026rdquo; pom entries in master pom xml present at the root of the respective project. Path to client.properties file with keystore file location and other info. Usually there are only 2 set of files, one for lower levels (client.test.properties) and another one for PROD (client.prod.properties). Copy these files over from existing 3.0 application server to build-distribution/appsec directory in 3.5 project. These files are copied over to appsec directory on server during staging process. The configuration is done in resources/config/application-.yml as shown below Keystore file (*.p12). Usually there are only 2 set of files, one for lower levels (APP*.test.p12) and another one for PROD (APP*.prod.p12). Copy latest files over from existing 3.0 application server to build-distribution/appsec directory in 3.5 project. These files are copied over to appsec directory on server during staging process. These files are referred to from client.properties file mentioned above Path to security.properties file. Usually there are one such file per level (security.L0.properties, security.L1.properties etc. Copy these files over from existing 3.0 project or application server to resources directory in 3.5 project. These files are packaged in the main jar file for the application. The configuration is done in resources/config/application-.yml. fp.properties file, copy this file from existing 3.0 application to resources directory in 3.5 project. This file is packaged in the main jar file for the application. CDS uri and default service AppId. This is done in resources/config/application-.yml as shown below.  cxs: security: devFramework: clientPropertiesPath: /opt/fedex/cfmscxs/appsec/client.test.properties securityPropertiesPath: security.L3.properties cds: defaultUri: http://cds-level3.ute.fedex.com/CommonDataService/clear/ defaultServiceAppId: 943415_cds   Bootstrap devframework through a set of spring beans. Refer to SecurityConfiguration class in CFMS project(com.fedex.cxs.cfms.config.SecurityConfiguration.java) for the reference:  @Bean @DependsOn({\u0026quot;cdsSecurityAction\u0026quot;,\u0026quot;cdsSecurityRole\u0026quot;,\u0026quot;cdsSecurityAppRole\u0026quot;, \u0026quot;cdsSecurityGroupRole\u0026quot;,\u0026quot;cdsSecurityUserRole\u0026quot;,\u0026quot;cdsSecurityExtendedRule\u0026quot;, \u0026quot;cdsSecurityExtRuleXRef\u0026quot;,\u0026quot;cdsSecurityRule\u0026quot;,\u0026quot;cdsSecurityResource\u0026quot;}) public CSSBootstrap15 securityBootstrap() { String clientPropPath = cxsProperties.getSecurity().getDevFramework().getClientPropertiesPath(); String securityPropPath = cxsProperties.getSecurity().getDevFramework().getSecurityPropertiesPath(); LOGGER.debug(\u0026quot;Bootstrapping DevFramework with clientPropertyFilePath=[\u0026quot; + clientPropPath +\u0026quot;] and securityPropertyFilePath=[\u0026quot; + securityPropPath +\u0026quot;]\u0026quot;); CSSBootstrap15 bs15 = new CSSBootstrap15(); bs15.setClient(true); bs15.setService(true); bs15.setClientProperties(clientPropPath); bs15.setSecurityProperties(securityPropPath); return bs15; } @Bean public CdsClient cdsClient(WebServiceTemplate wsTemplate) { CdsClient cdsClient = new CdsClient(); cdsClient.setWebServiceTemplate(wsTemplate); return cdsClient; } @Bean public CdsSecurityBase cdsSecurityBase(CdsClient cdsClient) { CdsSecurityBase cdsSecurityBase = new CdsSecurityBase(); cdsSecurityBase.setCdsClient(cdsClient); return cdsSecurityBase; } @Bean public SaajSoapMessageFactory messageFactory() { return new SaajSoapMessageFactory(); } @Bean public WebServiceTemplate wsTemplate(WebServiceMessageFactory messageFactory, Jaxb2Marshaller cdsMarshaller) { WebServiceTemplate wsTemplate = new WebServiceTemplate(); wsTemplate.setMessageFactory(messageFactory); wsTemplate.setDefaultUri(cxsProperties.getSecurity().getDevFramework().getCds().getDefaultUri()); wsTemplate.setMarshaller(cdsMarshaller); wsTemplate.setUnmarshaller(cdsMarshaller); wsTemplate.setInterceptors(new ClientInterceptor[]{wsSecurityInterceptor(wsTemplate)}); return wsTemplate; } @Bean public ClientInterceptor wsSecurityInterceptor(WebServiceTemplate wsTemplate) { SpringClientWsSecurityTokenInterceptor interceptor = new SpringClientWsSecurityTokenInterceptor(); interceptor.setWebServiceTemplate(wsTemplate); interceptor.setDefaultServiceAppId( cxsProperties.getSecurity().getDevFramework().getCds().getDefaultServiceAppId()); return interceptor; } @Bean public Jaxb2Marshaller cdsMarshaller() { Jaxb2Marshaller marshaller = new Jaxb2Marshaller(); marshaller.setContextPath(\u0026quot;com.fedex.framework.cds\u0026quot;); return marshaller; } @Bean public CdsSecurityAction cdsSecurityAction() { return new CdsSecurityAction(); } @Bean public CdsSecurityRole cdsSecurityRole() { return new CdsSecurityRole(); } @Bean public CdsSecurityAppRole cdsSecurityAppRole() { return new CdsSecurityAppRole(); } @Bean public CdsSecurityGroupRole cdsSecurityGroupRole() { return new CdsSecurityGroupRole(); } @Bean public CdsSecurityUserRole cdsSecurityUserRole() { return new CdsSecurityUserRole(); } @Bean public CdsSecurityExtendedRule cdsSecurityExtendedRule() { return new CdsSecurityExtendedRule(); } @Bean public CdsSecurityExtRuleXRef cdsSecurityExtRuleXRef() { return new CdsSecurityExtRuleXRef(); } @Bean public CdsSecurityRule cdsSecurityRule() { return new CdsSecurityRule(); } @Bean public CdsSecurityResource cdsSecurityResource() { return new CdsSecurityResource(); }  API Development Hystrix Setup Configuration  Add class level annotation @EnableCircuitBreaker Add method level annotation  @HystrixCommand(groupKey = \u0026quot;RATCServiceGroupKey\u0026quot;, commandKey = \u0026quot;RATCServiceGetRatesCommandKey\u0026quot;, threadPoolKey = \u0026quot;RATCServiceThreadPoolKey\u0026quot;,fallbackMethod=\u0026quot;defaultRates\u0026quot;)   Declare command key and thread pool configurations in application yml files  Example:\nRATCServiceGetRatesCommandKey: execution: isolation: strategy : THREAD maxConcurrentRequests : 10 thread: timeoutInMilliseconds : 10000 interruptOnTimeout : true timeout: enabled : true fallback: enabled : true circuitBreaker: enabled : true requestVolumeThreshold : 20 sleepWindowInMilliseconds : 5000 errorThresholdPercentage : 50 forceOpen : false forceClosed : false metrics: rollingStats: timeInMilliseconds : 10000 numBuckets : 10 rollingPercentile: enabled : true timeInMilliseconds : 60000 numBuckets : 6 bucketSize : 100 healthSnapshot: intervalInMilliseconds : 500 requestCache: enabled : true requestLog: enabled : true RATCServiceThreadPoolKey: coreSize : 10 maxQueueSize : 101 allowMaximumSizeToDivergeFromCoreSize: true queueSizeRejectionThreshold : 15 keepAliveTimeMinutes : 2 metrics: rollingStats: numBuckets : 12 timeInMilliseconds : 1440  Fallback Methods Fallback methods are triggered based on Hystrix configuration set in above section. Fallback methods can have same request/response arguments as the original method. In addition it can have Throwable parameter to access the underlying exception that caused hystrix failure.\nExample:\n/* Fall Back method to return default rate Response for anonymous shipment. * @param shipShipmentInput * @param clientContext * @param rootCause * @return */ public RateOutputVO defaultRates( ShipShipmentInputVO shipShipmentInput, ClientContextVO clientContext,Throwable rootCause) { LOGGER.error(\u0026quot;Error fetching Rates from RATC for Anonymous Shipment.\u0026quot;, rootCause); LOGGER.warn(\u0026quot;Fall back method triggered. Returning default Rates\u0026quot;); RateOutputVO output = new RateOutputVO(); List\u0026lt;RateReplyDetail\u0026gt; rateReplyDetails = new ArrayList\u0026lt;RateReplyDetail\u0026gt;(); RateReplyDetail rateReplyDetail = new RateReplyDetail(); rateReplyDetail.setAnonymouslyAllowable(true); rateReplyDetails.add(rateReplyDetail); output.setRateReplyDetails(rateReplyDetails); return output; }  Corcuit Breaker Circuit or a connection between caller service and called service can be configured by parameters. Refer Circuit Breaker\ncircuitBreaker: enabled: true requestVolumeThreshold: 20 sleepWindowInMilliseconds: 5000 errorThresholdPercentage: 50 forceOpen: false forceClosed: false  When circuit breaker opens the circuit, HDSB display as: Backend Calls FAST - Service Factory Properties in YML Files  Add Service Factory level specific properties files under root content folder.  Define Fast call dom properties and service factory file location in application.yml (Level Specific)  fast: cnty: domeMajorVersion: 3 domIntermediateVersion: 1 domMinorVersion: 0 softwareId: INET softwareReleaseVersion: 35 applicationId: commondatacal softwareReleaseRevision: 52 serviceFactoryFileLocation: content/cnty/servicefactory/properties.L2-wtc  Error Handling - FAST To CXS Error Code Conversation  Define FAST error codes and messages in main application.yml under cxs  fast: defaultConversationCodeProperties: VACS-501: ADDRESS.IS.REQUIRED VACS-797: ADULTSIGNATURE.NOT.ALLOWED VACS-795: ADULTSIGNATURE.SERVICESELECTED.NOTALLOWED VACS-422: AIRBILL.NOT.ALLOWED VACS-506: AIRBILL.VACSVALIDATION.FAILED VACS-463: AIRPORT.COMMITMENT.NOTNULL VACS-1073: ANCILLARYENDORSEMENT.TYPE.ERROR   Code that retrieves the FAST error code equivalent code and invokes CFMS service to retrieve the error message for the given code.  /* * @param code test * @return */ private String getErrorTextFromCFMS(String code) { String cxsErrorCode = (String) CommonAppConfig.getInstance().getDefaultConversionCodeProperties().get(code); if(!StringUtils.isEmpty(cxsErrorCode)){ List\u0026lt;CXSError\u0026gt; errors = new ArrayList\u0026lt;CXSError\u0026gt;(); errors.add(new CXSError(cxsErrorCode)); try { cfmsService.populateMessagesFromCFMS(TransactionIdProvider.get(), clientContextVO, errors); } catch (CFMSClientValidationException | CFMSClientSystemException e) { LOGGER.error(\u0026quot;Exception while retrieving the error messages from CFMS\u0026quot;,e); } } return cxsErrorCode; }  Database "
 },
 {
-	"uri": "/credits/",
+	"uri": "https://phanicherukuri-fedex.github.io/apif-cookbook/credits/",
 	"title": "Credits",
 	"tags": [],
 	"description": "Credits",
 	"content": " Contributors  Kasi Narayanan Arunachalam Shobha Jagannatharaju Sandhya Urlam Phani Cherukuri  * Special Thanks to Drew Terrell and Matt Lum\n"
 },
 {
-	"uri": "/recipes/",
+	"uri": "https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/",
 	"title": "Recipes",
 	"tags": [],
 	"description": "",
 	"content": "Customer Experience Services, often called CXS, are the middleware applications which holds a communication between UI and FAST applications. CXS are build based on REST calls. Currently, we have 25 CXS applications which deals with different modules of FedEx business such as Shipping, Rating, Tracking. CXS recipe modules have all the details such as how to create, and maintain the new CXS; REST API standards; CXS Error Standards; Procedures to upgrade JDK and WL version; API Versioning.\nNew Joinees\u0026rsquo; can look at the different recipes to understand what is in and out of CXS.\n"
 },
 {
-	"uri": "/recipes/apim/",
+	"uri": "https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/apim/",
 	"title": "APIM",
 	"tags": [],
 	"description": "List the child pages of a page",
 	"content": "Customer Experience Services, often called CXS, are the middleware applications which holds a communication between UI and FAST applications. CXS are build based on REST calls. Currently, we have 25 CXS applications which deals with different modules of FedEx business such as Shipping, Rating, Tracking. CXS recipe modules have all the details such as how to create, and maintain the new CXS; REST API standards; CXS Error Standards; Procedures to upgrade JDK and WL version; API Versioning.\nNew Joinees\u0026rsquo; can look at the different recipes to understand what is in and out of CXS.\n"
 },
 {
-	"uri": "/recipes/ci_cd/",
+	"uri": "https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/ci_cd/",
 	"title": "CI/CD",
 	"tags": [],
 	"description": "CI/CD Related Things",
 	"content": ""
 },
 {
-	"uri": "/recipes/cxs/",
+	"uri": "https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/cxs/",
 	"title": "CXS",
 	"tags": [],
 	"description": "CXS Related Things",
 	"content": "Customer Experience Services, often called CXS, are the middleware applications which holds a communication between UI and FAST applications. CXS are build based on REST calls. Currently, we have 25 CXS applications which deals with different modules of FedEx business such as Shipping, Rating, Tracking. CXS recipe modules have all the details such as how to create, and maintain the new CXS; REST API standards; CXS Error Standards; Procedures to upgrade JDK and WL version; API Versioning.\nNew Joinees\u0026rsquo; can look at the different recipes to understand what is in and out of CXS.\n"
 },
 {
-	"uri": "/categories/",
+	"uri": "https://phanicherukuri-fedex.github.io/apif-cookbook/categories/",
 	"title": "Categories",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "/recipes/fast_track_items/",
+	"uri": "https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/fast_track_items/",
 	"title": "Fast Track Items",
 	"tags": [],
 	"description": "Fast Track Items Related Things",
 	"content": ""
 },
 {
-	"uri": "/tags/foo/",
+	"uri": "https://phanicherukuri-fedex.github.io/apif-cookbook/tags/foo/",
 	"title": "Foo",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "/recipes/production/",
+	"uri": "https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/production/",
 	"title": "Production",
 	"tags": [],
 	"description": "Production Related Things",
 	"content": ""
 },
 {
-	"uri": "/categories/recipes/",
+	"uri": "https://phanicherukuri-fedex.github.io/apif-cookbook/categories/recipes/",
 	"title": "Recipes",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "/tags/rest/",
+	"uri": "https://phanicherukuri-fedex.github.io/apif-cookbook/tags/rest/",
 	"title": "Rest",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "/tags/rest-standards/",
+	"uri": "https://phanicherukuri-fedex.github.io/apif-cookbook/tags/rest-standards/",
 	"title": "Rest Standards",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "/tags/",
+	"uri": "https://phanicherukuri-fedex.github.io/apif-cookbook/tags/",
 	"title": "Tags",
 	"tags": [],
 	"description": "",

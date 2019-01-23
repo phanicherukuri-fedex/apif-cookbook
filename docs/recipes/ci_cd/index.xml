@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CI/CD on APIF Cookbook</title>
-    <link>/recipes/ci_cd/</link>
+    <link>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/ci_cd/</link>
     <description>Recent content in CI/CD on APIF Cookbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>@2019 FedEx Services</copyright>
     <lastBuildDate>Thu, 06 Dec 2018 16:05:59 -0600</lastBuildDate>
     
-	<atom:link href="/recipes/ci_cd/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/ci_cd/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Implement Rely Best Practices</title>
-      <link>/recipes/ci_cd/implement_rely_best_practices/</link>
+      <link>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/ci_cd/implement_rely_best_practices/</link>
       <pubDate>Thu, 06 Dec 2018 16:05:59 -0600</pubDate>
       
-      <guid>/recipes/ci_cd/implement_rely_best_practices/</guid>
+      <guid>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/ci_cd/implement_rely_best_practices/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Improve Code Coverage in CXS</title>
-      <link>/recipes/ci_cd/improve_code_coverage_in_cxs/</link>
+      <link>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/ci_cd/improve_code_coverage_in_cxs/</link>
       <pubDate>Thu, 06 Dec 2018 16:05:59 -0600</pubDate>
       
-      <guid>/recipes/ci_cd/improve_code_coverage_in_cxs/</guid>
+      <guid>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/ci_cd/improve_code_coverage_in_cxs/</guid>
       <description></description>
     </item>
     
