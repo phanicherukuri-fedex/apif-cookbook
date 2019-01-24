@@ -1,140 +1,140 @@
 [
 {
 	"uri": "https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/production/apim_and_cxs_release_management_guide_and_checklist/",
-	"title": "Apim_and_cxs_release_management_guide_and_checklist",
+	"title": "APIM and CXS Release Management Guide",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
 	"uri": "https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/production/escalation_procedure/",
-	"title": "Escalation_procedure",
+	"title": "Escalation Procedure",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
 	"uri": "https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/production/troubleshooting_cxs/",
-	"title": "Troubleshooting_cxs",
+	"title": "Troubleshooting CXS",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
 	"uri": "https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/production/troubleshooting_apim/",
-	"title": "Troubleshooting_apim",
+	"title": "Troubleshooting APIM",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
 	"uri": "https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/fast_track_items/handling_solution_support_category/",
-	"title": "Handling_solution_support_category",
+	"title": "Handling Solution Support Category",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
 	"uri": "https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/fast_track_items/handling_infosec_avert/",
-	"title": "Handling_infosec_avert",
+	"title": "Handling Infosec Avert",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
 	"uri": "https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/fast_track_items/handling_cmt/",
-	"title": "Handling_cmt",
+	"title": "Handling CMT",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
 	"uri": "https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/apim/enabling_in_portal/",
-	"title": "Enabling_in_portal",
+	"title": "Enabling in Portal",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
 	"uri": "https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/apim/developing_apig_endpoints_in_gateway/",
-	"title": "Developing_apig_endpoints_in_gateway",
+	"title": "Developing APIG Endpoints in Gateway",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
 	"uri": "https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/apim/calling_oauth_and_api_end_points/",
-	"title": "Calling_oauth_and_api_end_points",
+	"title": "Calling OAuth and API Endpoints",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
 	"uri": "https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/apim/onboarding_with_api_portal/",
-	"title": "Onboarding_with_api_portal",
+	"title": "Onboarding With API Portal",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
 	"uri": "https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/apim/being_api_consumer/",
-	"title": "Being_api_consumer",
+	"title": "Being API Consumer",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
 	"uri": "https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/apim/api_deployment_architecture/",
-	"title": "Api_deployment_architecture",
+	"title": "API Deployment Architecture",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
 	"uri": "https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/apim/apim_principles/",
-	"title": "Apim_principles",
+	"title": "APIM Principles",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
 	"uri": "https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/cxs/cxs_error_standards/",
-	"title": "Cxs_error_standards",
+	"title": "CXS Error Standards",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
 	"uri": "https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/cxs/api_definition/",
-	"title": "Api_definition",
+	"title": "API Definition",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
 	"uri": "https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/cxs/api_versioning/",
-	"title": "Api_versioning",
+	"title": "API Versioning",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
 	"uri": "https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/cxs/request_response_structure_standards/",
-	"title": "Request_response_structure_standards",
+	"title": "Request Response Structure Standards",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
 	"uri": "https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/cxs/cxs_application_devframework_integration_document_in_3.0_and_3.5/",
-	"title": "Cxs_application_devframework_integration_document_in_3.0_and_3",
+	"title": "CSX Application DevFramework Integration in 3.0 and 3.5",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
 	"uri": "https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/cxs/procedures_to_upgrade_jdk_and_wl_version/",
-	"title": "Procedures_to_upgrade_jdk_and_wl_version",
+	"title": "Procedure to Upgrade JDK and WL Versions",
 	"tags": [],
 	"description": "",
 	"content": ""

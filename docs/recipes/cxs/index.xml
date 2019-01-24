@@ -13,7 +13,7 @@
     
     
     <item>
-      <title>Cxs_error_standards</title>
+      <title>CXS Error Standards</title>
       <link>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/cxs/cxs_error_standards/</link>
       <pubDate>Wed, 23 Jan 2019 18:53:55 -0600</pubDate>
       
@@ -22,7 +22,7 @@
     </item>
     
     <item>
-      <title>Api_definition</title>
+      <title>API Definition</title>
       <link>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/cxs/api_definition/</link>
       <pubDate>Wed, 23 Jan 2019 18:53:18 -0600</pubDate>
       
@@ -31,7 +31,7 @@
     </item>
     
     <item>
-      <title>Api_versioning</title>
+      <title>API Versioning</title>
       <link>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/cxs/api_versioning/</link>
       <pubDate>Wed, 23 Jan 2019 18:52:27 -0600</pubDate>
       
@@ -40,7 +40,7 @@
     </item>
     
     <item>
-      <title>Request_response_structure_standards</title>
+      <title>Request Response Structure Standards</title>
       <link>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/cxs/request_response_structure_standards/</link>
       <pubDate>Thu, 06 Dec 2018 16:16:22 -0600</pubDate>
       
@@ -49,7 +49,7 @@
     </item>
     
     <item>
-      <title>Cxs_application_devframework_integration_document_in_3.0_and_3</title>
+      <title>CSX Application DevFramework Integration in 3.0 and 3.5</title>
       <link>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/cxs/cxs_application_devframework_integration_document_in_3.0_and_3.5/</link>
       <pubDate>Thu, 06 Dec 2018 16:15:31 -0600</pubDate>
       
@@ -58,7 +58,7 @@
     </item>
     
     <item>
-      <title>Procedures_to_upgrade_jdk_and_wl_version</title>
+      <title>Procedure to Upgrade JDK and WL Versions</title>
       <link>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/cxs/procedures_to_upgrade_jdk_and_wl_version/</link>
       <pubDate>Thu, 06 Dec 2018 16:14:40 -0600</pubDate>
       
