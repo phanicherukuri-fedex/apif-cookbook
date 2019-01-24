@@ -8,7 +8,7 @@ publishDir = "docs"
 
 [params]
 description = "API Factory Applications/Methods Cookbook"
-editURL = "https://gitlab.prod.fedex.com/APP4067/apptx-cookbook"
+editURL = "https://github.com/phanicherukuri-fedex/apif-cookbook"
 noCategoryLink = true
 showVisitedLinks = false
 disableSearch = false
@@ -24,7 +24,7 @@ home = [ "HTML", "RSS", "JSON"]
 pre = "<h3>More</h3>"
 name = "<i class='fa fa-github'></i> <label>Github repo</label>"
 identifier = "ds"
-url = "https://github.com/vjeantet/hugo-theme-docdock"
+url = "https://github.com/phanicherukuri-fedex/apif-cookbook"
 weight = 10
 
 # [[menu.shortcuts]]
