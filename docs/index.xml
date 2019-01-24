@@ -13,29 +13,182 @@
     
     
     <item>
+      <title>Apim_and_cxs_release_management_guide_and_checklist</title>
+      <link>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/production/apim_and_cxs_release_management_guide_and_checklist/</link>
+      <pubDate>Wed, 23 Jan 2019 19:15:08 -0600</pubDate>
+      
+      <guid>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/production/apim_and_cxs_release_management_guide_and_checklist/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Escalation_procedure</title>
+      <link>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/production/escalation_procedure/</link>
+      <pubDate>Wed, 23 Jan 2019 19:13:40 -0600</pubDate>
+      
+      <guid>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/production/escalation_procedure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Troubleshooting_cxs</title>
+      <link>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/production/troubleshooting_cxs/</link>
+      <pubDate>Wed, 23 Jan 2019 19:13:21 -0600</pubDate>
+      
+      <guid>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/production/troubleshooting_cxs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Troubleshooting_apim</title>
+      <link>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/production/troubleshooting_apim/</link>
+      <pubDate>Wed, 23 Jan 2019 19:12:58 -0600</pubDate>
+      
+      <guid>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/production/troubleshooting_apim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Handling_solution_support_category</title>
+      <link>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/fast_track_items/handling_solution_support_category/</link>
+      <pubDate>Wed, 23 Jan 2019 19:08:26 -0600</pubDate>
+      
+      <guid>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/fast_track_items/handling_solution_support_category/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Handling_infosec_avert</title>
+      <link>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/fast_track_items/handling_infosec_avert/</link>
+      <pubDate>Wed, 23 Jan 2019 19:08:04 -0600</pubDate>
+      
+      <guid>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/fast_track_items/handling_infosec_avert/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Handling_cmt</title>
+      <link>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/fast_track_items/handling_cmt/</link>
+      <pubDate>Wed, 23 Jan 2019 19:07:48 -0600</pubDate>
+      
+      <guid>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/fast_track_items/handling_cmt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enabling_in_portal</title>
+      <link>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/apim/enabling_in_portal/</link>
+      <pubDate>Wed, 23 Jan 2019 19:01:13 -0600</pubDate>
+      
+      <guid>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/apim/enabling_in_portal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Developing_apig_endpoints_in_gateway</title>
+      <link>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/apim/developing_apig_endpoints_in_gateway/</link>
+      <pubDate>Wed, 23 Jan 2019 19:00:48 -0600</pubDate>
+      
+      <guid>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/apim/developing_apig_endpoints_in_gateway/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Calling_oauth_and_api_end_points</title>
+      <link>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/apim/calling_oauth_and_api_end_points/</link>
+      <pubDate>Wed, 23 Jan 2019 19:00:09 -0600</pubDate>
+      
+      <guid>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/apim/calling_oauth_and_api_end_points/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Onboarding_with_api_portal</title>
+      <link>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/apim/onboarding_with_api_portal/</link>
+      <pubDate>Wed, 23 Jan 2019 18:59:00 -0600</pubDate>
+      
+      <guid>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/apim/onboarding_with_api_portal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Being_api_consumer</title>
+      <link>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/apim/being_api_consumer/</link>
+      <pubDate>Wed, 23 Jan 2019 18:58:28 -0600</pubDate>
+      
+      <guid>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/apim/being_api_consumer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Api_deployment_architecture</title>
+      <link>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/apim/api_deployment_architecture/</link>
+      <pubDate>Wed, 23 Jan 2019 18:57:57 -0600</pubDate>
+      
+      <guid>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/apim/api_deployment_architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Apim_principles</title>
+      <link>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/apim/apim_principles/</link>
+      <pubDate>Wed, 23 Jan 2019 18:57:22 -0600</pubDate>
+      
+      <guid>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/apim/apim_principles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cxs_error_standards</title>
+      <link>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/cxs/cxs_error_standards/</link>
+      <pubDate>Wed, 23 Jan 2019 18:53:55 -0600</pubDate>
+      
+      <guid>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/cxs/cxs_error_standards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Api_definition</title>
+      <link>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/cxs/api_definition/</link>
+      <pubDate>Wed, 23 Jan 2019 18:53:18 -0600</pubDate>
+      
+      <guid>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/cxs/api_definition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Api_versioning</title>
+      <link>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/cxs/api_versioning/</link>
+      <pubDate>Wed, 23 Jan 2019 18:52:27 -0600</pubDate>
+      
+      <guid>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/cxs/api_versioning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Request_response_structure_standards</title>
-      <link>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/apim/request_response_structure_standards/</link>
+      <link>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/cxs/request_response_structure_standards/</link>
       <pubDate>Thu, 06 Dec 2018 16:16:22 -0600</pubDate>
       
-      <guid>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/apim/request_response_structure_standards/</guid>
+      <guid>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/cxs/request_response_structure_standards/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cxs_application_devframework_integration_document_in_3.0_and_3</title>
-      <link>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/apim/cxs_application_devframework_integration_document_in_3.0_and_3.5/</link>
+      <link>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/cxs/cxs_application_devframework_integration_document_in_3.0_and_3.5/</link>
       <pubDate>Thu, 06 Dec 2018 16:15:31 -0600</pubDate>
       
-      <guid>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/apim/cxs_application_devframework_integration_document_in_3.0_and_3.5/</guid>
+      <guid>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/cxs/cxs_application_devframework_integration_document_in_3.0_and_3.5/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Procedures_to_upgrade_jdk_and_wl_version</title>
-      <link>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/apim/procedures_to_upgrade_jdk_and_wl_version/</link>
+      <link>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/cxs/procedures_to_upgrade_jdk_and_wl_version/</link>
       <pubDate>Thu, 06 Dec 2018 16:14:40 -0600</pubDate>
       
-      <guid>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/apim/procedures_to_upgrade_jdk_and_wl_version/</guid>
+      <guid>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/cxs/procedures_to_upgrade_jdk_and_wl_version/</guid>
       <description></description>
     </item>
     

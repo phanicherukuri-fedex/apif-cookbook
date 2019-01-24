@@ -7,9 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>@2019 FedEx Services</copyright>
+    <lastBuildDate>Wed, 23 Jan 2019 19:08:26 -0600</lastBuildDate>
     
 	<atom:link href="https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/fast_track_items/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Handling_solution_support_category</title>
+      <link>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/fast_track_items/handling_solution_support_category/</link>
+      <pubDate>Wed, 23 Jan 2019 19:08:26 -0600</pubDate>
+      
+      <guid>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/fast_track_items/handling_solution_support_category/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Handling_infosec_avert</title>
+      <link>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/fast_track_items/handling_infosec_avert/</link>
+      <pubDate>Wed, 23 Jan 2019 19:08:04 -0600</pubDate>
+      
+      <guid>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/fast_track_items/handling_infosec_avert/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Handling_cmt</title>
+      <link>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/fast_track_items/handling_cmt/</link>
+      <pubDate>Wed, 23 Jan 2019 19:07:48 -0600</pubDate>
+      
+      <guid>https://phanicherukuri-fedex.github.io/apif-cookbook/recipes/fast_track_items/handling_cmt/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
